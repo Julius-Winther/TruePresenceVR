@@ -17,7 +17,7 @@ namespace Convai.Scripts.Editor.CustomPackage
         static ReadyPlayerMeImporter()
         {
             Debug.Log("Ready Player Me is not installed, importing it.");
-            _request = Client.Add("https://github.com/readyplayerme/rpm-unity-sdk-core.git#f6ea3c4b0a8891b7c4c1d7b269cee545185549fb");
+            _request = Client.Add("https://github.com/readyplayerme/rpm-unity-sdk-core.git#v7.3.0");
             EditorUtility.DisplayProgressBar("Importing Ready Player Me", "Importing.....", Random.Range(0, 1f));
             EditorApplication.update += UnityEditorUpdateCallback;
         }
