@@ -4202,11 +4202,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &798365266 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1023210905460925104, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
-  m_PrefabInstance: {fileID: 1293949021}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &829213316
 GameObject:
   m_ObjectHideFlags: 0
@@ -5598,18 +5593,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3508967544469701721, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
-      propertyPath: m_Avatar
-      value: 
-      objectReference: {fileID: 9000000, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
-    - target: {fileID: 3982660899520527051, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
-      propertyPath: <FacialExpressionData>k__BackingField.JawBone
-      value: 
-      objectReference: {fileID: 1955533612}
-    - target: {fileID: 3982660899520527051, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
-      propertyPath: <FacialExpressionData>k__BackingField.TongueBone
-      value: 
-      objectReference: {fileID: 798365266}
     - target: {fileID: 3982660899520527051, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: <FacialExpressionData>k__BackingField.Head.Renderer
       value: 
@@ -9295,11 +9278,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917265431}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1955533612 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1346396372490104866, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
-  m_PrefabInstance: {fileID: 1293949021}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1991160254
 GameObject:
   m_ObjectHideFlags: 0

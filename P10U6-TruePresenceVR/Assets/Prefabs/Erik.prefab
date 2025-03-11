@@ -10,31 +10,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.2574706
+      value: 2.8219643
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000047683716
+      value: -2.4671004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.7894249
+      value: 1.7195554
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.9914446
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0.13052888
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -42,7 +42,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -83,6 +83,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9199727321506538672}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4997778446265865826}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5027041825193577560}
     - targetCorrespondingSourceObject: {fileID: -987902088747988769, guid: a01bc71969b49c9498cba12e2f93eca6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7256505354640738917}
@@ -517,3 +523,221 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &4997778446265865826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4972691535520507752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744cc0ebc534aa44b8b0871ca72570b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionMethods:
+  - action: Move To
+    animationName: 
+    actionChoice: 3
+  - action: Pick Up
+    animationName: 
+    actionChoice: 4
+  - action: Dance
+    animationName: Dance
+    actionChoice: 0
+  - action: Drop
+    animationName: 
+    actionChoice: 5
+  - action: Jump
+    animationName: 
+    actionChoice: 1
+  actionResponseList: []
+--- !u!114 &5027041825193577560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4972691535520507752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d56bc33052944e0aba5a0fe7073c3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sectionChangeEventsDataList:
+  - id: f9d90740-f8e6-11ef-a154-42010a7be01a
+    onSectionStart:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    onSectionEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - id: f7d69966-f8e7-11ef-af6c-42010a7be01a
+    onSectionStart:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    onSectionEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - id: 2e12a6ba-f8f1-11ef-bf67-42010a7be01a
+    onSectionStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onSectionEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - id: 96990132-f8f3-11ef-95d9-42010a7be01a
+    onSectionStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onSectionEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - id: 841839c2-f8f5-11ef-941c-42010a7be01a
+    onSectionStart:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    onSectionEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - id: fa9920e8-f8f5-11ef-9b89-42010a7be01a
+    onSectionStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onSectionEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - id: 3cfc4cf6-f902-11ef-aa85-42010a7be01a
+    onSectionStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onSectionEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  sectionDataList:
+  - sectionId: f9d90740-f8e6-11ef-a154-42010a7be01a
+    sectionName: End Tour (TSP)
+    behaviorTreeConstants: 
+    objective: 
+    characterId: eebab268-f4f5-11ef-b8a4-42010a7be01a
+  - sectionId: f7d69966-f8e7-11ef-af6c-42010a7be01a
+    sectionName: Anechoic Chamber (TSP)
+    behaviorTreeConstants: 
+    objective: 
+    characterId: eebab268-f4f5-11ef-b8a4-42010a7be01a
+  - sectionId: 2e12a6ba-f8f1-11ef-bf67-42010a7be01a
+    sectionName: Where to start (Choice)
+    behaviorTreeConstants: 
+    objective: Move to the location that the user specifies, and if the user doesn't
+      know where to go take them inside the Me-Lab
+    characterId: eebab268-f4f5-11ef-b8a4-42010a7be01a
+  - sectionId: 96990132-f8f3-11ef-95d9-42010a7be01a
+    sectionName: Me-Lab General Explenation
+    behaviorTreeConstants: 
+    objective: 'Say this to the user:
+
+      "Okay, Well, The Multisensory Experience
+      Lab (ME-Lab) at Aalborg University, Copenhagen, is part of the Technical Faculty
+      of IT and Design. We develop innovative technologies that simulate and enhance
+      human senses through a human-centered approach. Our research spans multiple
+      domains, including healthcare, rehabilitation, education, art, and entertainment.
+      Collaborations with hospitals, municipalities, museums, and industry partners
+      ensure real-world impact."'
+    characterId: eebab268-f4f5-11ef-b8a4-42010a7be01a
+  - sectionId: 841839c2-f8f5-11ef-941c-42010a7be01a
+    sectionName: Inside the Me-Lab (TSP)
+    behaviorTreeConstants: 
+    objective: 
+    characterId: eebab268-f4f5-11ef-b8a4-42010a7be01a
+  - sectionId: fa9920e8-f8f5-11ef-9b89-42010a7be01a
+    sectionName: Inside Me-Lab (Choice)
+    behaviorTreeConstants: 
+    objective: "If the user wants to go to the Anechoic Chamber, move there. \nIf
+      the user wants to end the tour early, move to the me lab entrance."
+    characterId: eebab268-f4f5-11ef-b8a4-42010a7be01a
+  - sectionId: 3cfc4cf6-f902-11ef-aa85-42010a7be01a
+    sectionName: Anechoic Chamber (Choice)
+    behaviorTreeConstants: 
+    objective: Move to the location that the user specifies, and if the user doesn't
+      know where to go take them inside the Me-Lab, or if the user wants to end the
+      tour take them to the me lab entrance
+    characterId: eebab268-f4f5-11ef-b8a4-42010a7be01a
+  triggerDataList:
+  - triggerId: 03810da0-f8f7-11ef-b688-42010a7be01a
+    triggerName: Anechoic Chamber (Trigger)
+    triggerMessage: 'Say this to the user:
+
+      "Welcome to the Anechoic Chamber,
+      also known as Tinnitus. An anechoic chamber (an-echoic meaning "non-reflective"
+      or "without echoes") is a room designed to stop reflections or echoes of either
+      sound or electromagnetic waves.
+
+      This was my brief description of the
+      Anechoic Chamber. Do you want to go take a general look at the Me-Lab or do
+      you want to end the tour early?"'
+    destinationSection: 3cfc4cf6-f902-11ef-aa85-42010a7be01a
+    characterId: eebab268-f4f5-11ef-b8a4-42010a7be01a
+  - triggerId: 96b922fe-f903-11ef-aa85-42010a7be01a
+    triggerName: End Tour (Trigger)
+    triggerMessage: 'Say this to the user:
+
+      "I hope to see you again another
+      time"'
+    destinationSection: 
+    characterId: eebab268-f4f5-11ef-b8a4-42010a7be01a
+  - triggerId: 7178fe64-f8f5-11ef-941c-42010a7be01a
+    triggerName: Inside the Me-Lab (Trigger)
+    triggerMessage: 'Say this to the user:
+
+      "Do you want me to explain some
+      general things about the Me-Lab or take you to the Anechoic Chamber?"'
+    destinationSection: fa9920e8-f8f5-11ef-9b89-42010a7be01a
+    characterId: eebab268-f4f5-11ef-b8a4-42010a7be01a
+  - triggerId: b558f266-f8e5-11ef-a45a-42010a7be01a
+    triggerName: First Approach (Trigger)
+    triggerMessage: 'Say this to the user:
+
+      "Hey there! you are the one who
+      wanted a virtual tour of the Me-Lab right? Perfect, I''m Emilio and I will
+      be the one to show you around!
+
+      Do you have a preferred place to start
+      or should I just pick something?"'
+    destinationSection: 2e12a6ba-f8f1-11ef-bf67-42010a7be01a
+    characterId: eebab268-f4f5-11ef-b8a4-42010a7be01a
