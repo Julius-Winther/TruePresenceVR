@@ -172,7 +172,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!4 &103815841 stripped
 Transform:
@@ -311,9 +311,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c783ed73e64a204ebf38b93c054b566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convaiNPC: {fileID: 0}
-  selectedTriggerIndex: -1
-  availableTriggers: []
+  convaiNPC: {fileID: 1983703980}
+  selectedTriggerIndex: 2
+  availableTriggers:
+  - Anechoic Chamber (Trigger)
+  - End Tour (Trigger)
+  - Inside the Me-Lab (Trigger)
+  - First Approach (Trigger)
   onTriggerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -533,9 +537,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c783ed73e64a204ebf38b93c054b566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convaiNPC: {fileID: 0}
-  selectedTriggerIndex: -1
-  availableTriggers: []
+  convaiNPC: {fileID: 1983703980}
+  selectedTriggerIndex: 1
+  availableTriggers:
+  - Anechoic Chamber (Trigger)
+  - End Tour (Trigger)
+  - Inside the Me-Lab (Trigger)
+  - First Approach (Trigger)
   onTriggerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -672,9 +680,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c783ed73e64a204ebf38b93c054b566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convaiNPC: {fileID: 0}
-  selectedTriggerIndex: -1
-  availableTriggers: []
+  convaiNPC: {fileID: 1983703980}
+  selectedTriggerIndex: 3
+  availableTriggers:
+  - Anechoic Chamber (Trigger)
+  - End Tour (Trigger)
+  - Inside the Me-Lab (Trigger)
+  - First Approach (Trigger)
   onTriggerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1377,9 +1389,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c783ed73e64a204ebf38b93c054b566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convaiNPC: {fileID: 0}
-  selectedTriggerIndex: -1
-  availableTriggers: []
+  convaiNPC: {fileID: 1983703980}
+  selectedTriggerIndex: 0
+  availableTriggers:
+  - Anechoic Chamber (Trigger)
+  - End Tour (Trigger)
+  - Inside the Me-Lab (Trigger)
+  - First Approach (Trigger)
   onTriggerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1705,6 +1721,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4972691535520507752, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
   m_PrefabInstance: {fileID: 1983703972}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1983703980 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3195278754633318006, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+  m_PrefabInstance: {fileID: 1983703972}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983703974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b38e4bc919e1f040ba78aea7472893e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2069826018
 PrefabInstance:
   m_ObjectHideFlags: 0
