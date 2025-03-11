@@ -119,6 +119,61 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &78306689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4220483122338837407, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
+  m_PrefabInstance: {fileID: 3445706951344710553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &78306695
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78306689}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1.8
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.97, z: 0}
+--- !u!54 &78306696
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78306689}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!4 &103815841 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6137173367714500376, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
@@ -1581,7 +1636,7 @@ PrefabInstance:
       objectReference: {fileID: 103815841}
     - target: {fileID: 4972691535520507752, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_Name
-      value: Erik
+      value: Emilio
       objectReference: {fileID: 0}
     - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2012,10 +2067,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: VR Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8380601010682190298, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4220483122338837407, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 78306695}
+    - targetCorrespondingSourceObject: {fileID: 4220483122338837407, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 78306696}
   m_SourcePrefab: {fileID: 100100000, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
