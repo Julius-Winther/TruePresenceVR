@@ -13,6 +13,8 @@ Lukas Nysted
 
 Krestian Bendixen
 
-Ali Adjorlu
+Ali Adjorlu - Supervision
 
-The crew at Virsabi
+Dina Elmazi - Environment
+
+The crew at Virsabi - Supervision, testing and support
