@@ -7,8 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 780313a95ea77b542bedf3bcc6c200a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Lightbulb
     second: {fileID: 2100000, guid: 6013bbd666f6e274189d6cbdfbe33d0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: caf5b5387c50ed347b0d656170ace4b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TinitusFloor
+    second: {fileID: 2100000, guid: c1e32aaea86fbb943a604b364a22a318, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
