@@ -1,0 +1,5 @@
+C:/Users/juliu/Documents/GitHub/TruePresenceVR/P10U6-TruePresenceVR/.utmp/Debug/54124v1h/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/juliu/Documents/GitHub/TruePresenceVR/P10U6-TruePresenceVR/.utmp/Debug/54124v1h/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/juliu/Documents/GitHub/TruePresenceVR/P10U6-TruePresenceVR/.utmp/Debug/54124v1h/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/juliu/Documents/GitHub/TruePresenceVR/P10U6-TruePresenceVR/.utmp/Debug/54124v1h/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/juliu/Documents/GitHub/TruePresenceVR/P10U6-TruePresenceVR/.utmp/Debug/54124v1h/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
