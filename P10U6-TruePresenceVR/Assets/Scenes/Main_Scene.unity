@@ -2950,6 +2950,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3842415631613375401, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6117647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3842415631613375401, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
+      propertyPath: m_Color.g
+      value: 0.23529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 3842415631613375401, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
+      propertyPath: m_Color.r
+      value: 0.12941177
+      objectReference: {fileID: 0}
     - target: {fileID: 7625403055362601634, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
       propertyPath: m_Name
       value: Convai Essentials - XR
