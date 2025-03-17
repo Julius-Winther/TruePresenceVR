@@ -836,7 +836,7 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-    Android: READY_PLAYER_ME;USE_INPUT_SYSTEM_POSE_CONTROL;CC_TOOLS
+    Android: READY_PLAYER_ME;USE_INPUT_SYSTEM_POSE_CONTROL;CC_TOOLS;CMS_SALSA
     EmbeddedLinux: CC_TOOLS
     GameCoreScarlett: CC_TOOLS
     GameCoreXboxOne: CC_TOOLS
