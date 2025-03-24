@@ -7,6 +7,36 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: BlackedWindow
+    second: {fileID: 2100000, guid: 6be01c24d522d544d80b55222c2c1dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackedWindow.001
+    second: {fileID: 2100000, guid: 6be01c24d522d544d80b55222c2c1dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackedWindow.002
+    second: {fileID: 2100000, guid: 6be01c24d522d544d80b55222c2c1dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackedWindow.003
+    second: {fileID: 2100000, guid: 6be01c24d522d544d80b55222c2c1dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackedWindow.004
+    second: {fileID: 2100000, guid: 6be01c24d522d544d80b55222c2c1dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackedWindow.005
+    second: {fileID: 2100000, guid: 6be01c24d522d544d80b55222c2c1dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Floor
     second: {fileID: 2100000, guid: 780313a95ea77b542bedf3bcc6c200a3, type: 2}
   - first:
