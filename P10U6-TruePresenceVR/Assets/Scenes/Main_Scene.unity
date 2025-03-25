@@ -2283,10 +2283,11 @@ MonoBehaviour:
   convaiNPC: {fileID: 1983703980}
   selectedTriggerIndex: 3
   availableTriggers:
-  - Anechoic Chamber (Trigger)
   - End Tour (Trigger)
-  - Inside the Me-Lab (Trigger)
+  - Anechoic Chamber (Trigger)
+  - Razvan (Trigger)
   - First Approach (Trigger)
+  - Inside the Me-Lab (Trigger)
   onTriggerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -2315,6 +2316,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1741383038}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 954988708}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -3036,6 +3049,149 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9051446470150729693, guid: 230adab525411b84f8bd8e251216ce7f, type: 3}
   m_PrefabInstance: {fileID: 308153007}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &954988708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 954988709}
+  - component: {fileID: 954988713}
+  - component: {fileID: 954988712}
+  - component: {fileID: 954988711}
+  - component: {fileID: 954988710}
+  m_Layer: 0
+  m_Name: 'Razvan (Trigger) '
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &954988709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954988708}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.73, y: -1.9008456, z: -5.72}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1277463347}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &954988710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954988708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c783ed73e64a204ebf38b93c054b566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  convaiNPC: {fileID: 1983703980}
+  selectedTriggerIndex: 2
+  availableTriggers:
+  - Anechoic Chamber (Trigger)
+  - End Tour (Trigger)
+  - Inside the Me-Lab (Trigger)
+  - First Approach (Trigger)
+  onTriggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 954988708}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!65 &954988711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954988708}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &954988712
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954988708}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &954988713
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954988708}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &988644290 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3403635481259897672, guid: 230adab525411b84f8bd8e251216ce7f, type: 3}
@@ -3378,6 +3534,7 @@ Transform:
   m_Children:
   - {fileID: 768760874}
   - {fileID: 331304585}
+  - {fileID: 954988709}
   - {fileID: 1741383043}
   - {fileID: 632033270}
   m_Father: {fileID: 1376597620}
@@ -7848,6 +8005,201 @@ PrefabInstance:
       value: Emilio
       objectReference: {fileID: 0}
     - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[2].objective
+      value: 'Move to the location that the user specifies, and if the user doesn''t
+        know where to go take them inside the Me-Lab.
+
+        Don''t move if the
+        user does not talk about where to go.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[3].objective
+      value: 'Say this to the user:
+
+        "Okay, Well, The Multisensory Experience
+        Lab (ME-Lab) at Aalborg University, Copenhagen, is part of the Technical
+        Faculty of IT and Design. We develop innovative technologies that simulate
+        and enhance human senses through a human-centered approach. Our research
+        spans multiple domains, including healthcare, rehabilitation, education,
+        art, and entertainment. Collaborations with hospitals, municipalities, museums,
+        and industry partners ensure real-world impact.
+
+        What do you want
+        to do now?
+
+        Do you want to go to the anechoic chamber or maybe the
+        Razvan?"
+
+
+        Then go to the location that the user wants to go to.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[5].objective
+      value: "If the user wants to go to the Anechoic Chamber, move there. \nIf the
+        user wants to go to the \"Razvan\", move there. \nIf the user wants to end
+        the tour early, move to the me lab entrance."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[7].objective
+      value: Stay and talk to the user, unless they want to go inside.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[7].sectionId
+      value: 93f75ba2-08b8-11f0-914e-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[8].sectionId
+      value: e6f7bcc4-0972-11f0-ae65-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[9].objective
+      value: Move to the location that the user specifies, or if the user wants to
+        end the tour take them to the Me-lab entrance
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[9].sectionId
+      value: fcb6b0e2-0972-11f0-bc11-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[0].triggerId
+      value: 96b922fe-f903-11ef-aa85-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[1].triggerId
+      value: 03810da0-f8f7-11ef-b688-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[2].triggerId
+      value: c4d470ba-0972-11f0-9702-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[4].triggerId
+      value: 7178fe64-f8f5-11ef-941c-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[7].characterId
+      value: eebab268-f4f5-11ef-b8a4-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[7].sectionName
+      value: Stay And Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[8].characterId
+      value: eebab268-f4f5-11ef-b8a4-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[8].sectionName
+      value: Razvan (TSP)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[9].characterId
+      value: eebab268-f4f5-11ef-b8a4-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionDataList.Array.data[9].sectionName
+      value: Razvan (Choice)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[0].triggerName
+      value: End Tour (Trigger)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[1].triggerName
+      value: Anechoic Chamber (Trigger)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[2].triggerName
+      value: Razvan (Trigger)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[4].characterId
+      value: eebab268-f4f5-11ef-b8a4-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[4].triggerName
+      value: Inside the Me-Lab (Trigger)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[7].id
+      value: 93f75ba2-08b8-11f0-914e-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].id
+      value: e6f7bcc4-0972-11f0-ae65-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[9].id
+      value: fcb6b0e2-0972-11f0-bc11-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[0].triggerMessage
+      value: 'Say this to the user:
+
+        "I hope to see you again another time"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[1].triggerMessage
+      value: 'Say this to the user:
+
+        "Welcome to the Anechoic Chamber, also
+        known as Tinnitus. An anechoic chamber (an-echoic meaning "non-reflective"
+        or "without echoes") is a room designed to stop reflections or echoes of
+        either sound or electromagnetic waves.
+
+        This was my brief description
+        of the Anechoic Chamber. Do you want to go take a general look at the Me-Lab
+        or do you want to see "Ravan"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[2].triggerMessage
+      value: This is the Razvan
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[4].triggerMessage
+      value: 'Say this to the user:
+
+        "Do you want me to explain some general
+        things about the Me-Lab or take you to the Anechoic Chamber or maybe the
+        "Razvan"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[0].destinationSection
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[1].destinationSection
+      value: 3cfc4cf6-f902-11ef-aa85-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[2].destinationSection
+      value: fcb6b0e2-0972-11f0-bc11-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: triggerDataList.Array.data[4].destinationSection
+      value: fa9920e8-f8f5-11ef-9b89-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 632033265}
@@ -7859,6 +8211,30 @@ PrefabInstance:
       propertyPath: sectionChangeEventsDataList.Array.data[4].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 331304580}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 954988708}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2963685244234584106, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.34554815
