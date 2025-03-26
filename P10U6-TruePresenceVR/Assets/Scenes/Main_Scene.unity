@@ -607,7 +607,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &331304581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -621,12 +621,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convaiNPC: {fileID: 1983703980}
-  selectedTriggerIndex: 2
+  selectedTriggerIndex: 4
   availableTriggers:
-  - Anechoic Chamber (Trigger)
   - End Tour (Trigger)
-  - Inside the Me-Lab (Trigger)
+  - Anechoic Chamber (Trigger)
+  - Razvan (Trigger)
   - First Approach (Trigger)
+  - Inside the Me-Lab (Trigger)
   onTriggerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1326,12 +1327,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convaiNPC: {fileID: 1983703980}
-  selectedTriggerIndex: 1
+  selectedTriggerIndex: 0
   availableTriggers:
-  - Anechoic Chamber (Trigger)
   - End Tour (Trigger)
-  - Inside the Me-Lab (Trigger)
+  - Anechoic Chamber (Trigger)
+  - Razvan (Trigger)
   - First Approach (Trigger)
+  - Inside the Me-Lab (Trigger)
   onTriggerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -2267,7 +2269,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &768760870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3068,7 +3070,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &954988709
 Transform:
   m_ObjectHideFlags: 0
@@ -3099,10 +3101,11 @@ MonoBehaviour:
   convaiNPC: {fileID: 1983703980}
   selectedTriggerIndex: 2
   availableTriggers:
-  - Anechoic Chamber (Trigger)
   - End Tour (Trigger)
-  - Inside the Me-Lab (Trigger)
+  - Anechoic Chamber (Trigger)
+  - Razvan (Trigger)
   - First Approach (Trigger)
+  - Inside the Me-Lab (Trigger)
   onTriggerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -5236,7 +5239,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1741383039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5250,12 +5253,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convaiNPC: {fileID: 1983703980}
-  selectedTriggerIndex: 0
+  selectedTriggerIndex: 1
   availableTriggers:
-  - Anechoic Chamber (Trigger)
   - End Tour (Trigger)
-  - Inside the Me-Lab (Trigger)
+  - Anechoic Chamber (Trigger)
+  - Razvan (Trigger)
   - First Approach (Trigger)
+  - Inside the Me-Lab (Trigger)
   onTriggerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -6220,6 +6224,63 @@ MonoBehaviour:
   m_Script: {fileID: -1489447753, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1983703998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983703974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c291f4e4904d634c8738098b3b333ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player_Transform: {fileID: 337588662}
+  _distanceThreshold: 6
+  _CoolDown: 30
+  LocationGameObjects:
+  - {fileID: 477932895}
+  - {fileID: 1721216136}
+  - {fileID: 1639851639}
+  - {fileID: 1371162796}
+  - {fileID: 1529196718}
+  Debug_DistanceToPlayer: 0
+  Debug_CoolDown: 0
+  Debug_ClosestLocation: 0
+--- !u!65 &1983703999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983703974}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5, y: 5, z: 5}
+  m_Center: {x: 0, y: 0.86, z: 0}
+--- !u!114 &1983704000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983703974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05aa3cdd3ee246a0a8e5ca86bcfba893, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1998495634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6980,7 +7041,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2769394321955819529, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.206
+      value: 2.955
       objectReference: {fileID: 0}
     - target: {fileID: 2769394321955819529, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6988,7 +7049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2769394321955819529, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.98
+      value: 6.879
       objectReference: {fileID: 0}
     - target: {fileID: 2769394321955819529, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7984,6 +8045,10 @@ PrefabInstance:
       propertyPath: lipsyncEmphasisEmotes.Array.data[5].expData.controllerVars.Array.data[1].smr
       value: 
       objectReference: {fileID: 769735321}
+    - target: {fileID: 1784414397759473992, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2245841487733322095, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.70712274
@@ -8003,6 +8068,10 @@ PrefabInstance:
     - target: {fileID: 2480059164636416656, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: m_Name
       value: Emilio
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480059164636416656, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: sectionDataList.Array.size
@@ -9027,7 +9096,16 @@ PrefabInstance:
     - {fileID: 5777340751416629043, guid: c1b714b7753e802458b57253a201132c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2480059164636416656, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1983703998}
+    - targetCorrespondingSourceObject: {fileID: 2480059164636416656, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1983703999}
+    - targetCorrespondingSourceObject: {fileID: 2480059164636416656, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1983704000}
   m_SourcePrefab: {fileID: 100100000, guid: c1b714b7753e802458b57253a201132c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
