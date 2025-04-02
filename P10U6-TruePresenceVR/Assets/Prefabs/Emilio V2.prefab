@@ -16,6 +16,221 @@ PrefabInstance:
       propertyPath: m_Name
       value: Emilio V2
       objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[2].objective
+      value: 'Move to the location that the user specifies, and if the user doesn''t
+        know where to go take them inside the Me-Lab.
+
+        Don''t move if the
+        user does not talk about where to go.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[3].objective
+      value: 'Say this to the user:
+
+        "Okay, Well, The Multisensory Experience
+        Lab (ME-Lab) at Aalborg University, Copenhagen, is part of the Technical
+        Faculty of IT and Design. We develop innovative technologies that simulate
+        and enhance human senses through a human-centered approach. Our research
+        spans multiple domains, including healthcare, rehabilitation, education,
+        art, and entertainment. Collaborations with hospitals, municipalities, museums,
+        and industry partners ensure real-world impact.
+
+        What do you want
+        to do now?
+
+        Do you want to go to the anechoic chamber or maybe the
+        Razvan?"
+
+
+        Then go to the location that the user wants to go to.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[5].objective
+      value: "If the user wants to go to the Anechoic Chamber, move there. \nIf the
+        user wants to go to the \"Razvan\", move there. \nIf the user wants to end
+        the tour early, move to the me lab entrance."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[7].objective
+      value: Stay and talk to the user, unless they want to go inside.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[7].sectionId
+      value: 93f75ba2-08b8-11f0-914e-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[8].sectionId
+      value: e6f7bcc4-0972-11f0-ae65-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[9].objective
+      value: Move to the location that the user specifies, or if the user wants to
+        end the tour take them to the Me-lab entrance
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[9].sectionId
+      value: fcb6b0e2-0972-11f0-bc11-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[0].triggerId
+      value: 96b922fe-f903-11ef-aa85-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[1].triggerId
+      value: 03810da0-f8f7-11ef-b688-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[2].triggerId
+      value: c4d470ba-0972-11f0-9702-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[4].triggerId
+      value: 7178fe64-f8f5-11ef-941c-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[7].characterId
+      value: eebab268-f4f5-11ef-b8a4-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[7].sectionName
+      value: Stay And Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[8].characterId
+      value: eebab268-f4f5-11ef-b8a4-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[8].sectionName
+      value: Razvan (TSP)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[9].characterId
+      value: eebab268-f4f5-11ef-b8a4-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionDataList.Array.data[9].sectionName
+      value: Razvan (Choice)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[0].triggerName
+      value: End Tour (Trigger)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[1].triggerName
+      value: Anechoic Chamber (Trigger)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[2].triggerName
+      value: Razvan (Trigger)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[4].characterId
+      value: eebab268-f4f5-11ef-b8a4-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[4].triggerName
+      value: Inside the Me-Lab (Trigger)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[7].id
+      value: 93f75ba2-08b8-11f0-914e-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].id
+      value: e6f7bcc4-0972-11f0-ae65-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[9].id
+      value: fcb6b0e2-0972-11f0-bc11-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[0].triggerMessage
+      value: 'Say this to the user:
+
+        "I hope to see you again another time"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[1].triggerMessage
+      value: 'Say this to the user:
+
+        "Welcome to the Anechoic Chamber, also
+        known as Tinnitus. An anechoic chamber (an-echoic meaning "non-reflective"
+        or "without echoes") is a room designed to stop reflections or echoes of
+        either sound or electromagnetic waves.
+
+        This was my brief description
+        of the Anechoic Chamber. Do you want to go take a general look at the Me-Lab
+        or do you want to see "Ravan"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[2].triggerMessage
+      value: This is the Razvan
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[4].triggerMessage
+      value: 'Say this to the user:
+
+        "Do you want me to explain some general
+        things about the Me-Lab or take you to the Anechoic Chamber or maybe the
+        "Razvan"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[0].destinationSection
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[1].destinationSection
+      value: 3cfc4cf6-f902-11ef-aa85-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[2].destinationSection
+      value: fcb6b0e2-0972-11f0-bc11-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: triggerDataList.Array.data[4].destinationSection
+      value: fa9920e8-f8f5-11ef-9b89-42010a7be01a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5641141397185297874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.34554815
@@ -66,19 +281,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8665674305800789143, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071228
+      value: 0.70712274
       objectReference: {fileID: 0}
     - target: {fileID: 8665674305800789143, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000050209033
+      value: -0.000050381066
       objectReference: {fileID: 0}
     - target: {fileID: 8665674305800789143, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000051321447
+      value: 0.000050741193
       objectReference: {fileID: 0}
     - target: {fileID: 8665674305800789143, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7070908
+      value: -0.7070909
       objectReference: {fileID: 0}
     - target: {fileID: 8665674305800789143, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -88,7 +303,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -89.997
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9199727321506538672, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1.3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3982660899520527051, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -113,6 +333,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4972691535520507752, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4795472372137292314}
+    - targetCorrespondingSourceObject: {fileID: 4972691535520507752, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3795537115593970401}
+    - targetCorrespondingSourceObject: {fileID: 4972691535520507752, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4383189288741265809}
+    - targetCorrespondingSourceObject: {fileID: 4972691535520507752, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1000992637136370488}
+    - targetCorrespondingSourceObject: {fileID: 4972691535520507752, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7113792892507002334}
+    - targetCorrespondingSourceObject: {fileID: 4972691535520507752, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6320731804697490275}
   m_SourcePrefab: {fileID: 100100000, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
 --- !u!4 &2245841487733322095 stripped
 Transform:
@@ -213,7 +448,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -235,7 +470,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -254,7 +489,7 @@ MonoBehaviour:
         expressionType: 0
         easing: 4
         expressionHandler: 0
-        isAnimatorControlled: 0
+        isAnimatorControlled: 1
         useOffset: 0
         useOffsetFollow: 1
         inspFoldout: 1
@@ -2210,7 +2445,7 @@ MonoBehaviour:
   needAudioSource: 1
   inspStateFoldoutProcessing: 0
   inspStateFoldoutSettings: 0
-  inspStateFoldoutVisemes: 0
+  inspStateFoldoutVisemes: 1
   inspCollectionDisplayMode: 0
   inspAnalysisDisplay: 0
   inspOverrideSecondaryMix: 0
@@ -2230,7 +2465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emoterName: NormalEmote
-  queueProcessor: {fileID: 0}
+  queueProcessor: {fileID: 380415203213464407}
   lipsyncEmphasisChance: 1
   lipsyncEmphasisEmotes:
   - expData:
@@ -5036,212 +5271,6 @@ MonoBehaviour:
     frac: 1
   emotes:
   - expData:
-      name: exaspr
-      components:
-      - name: Brow_Raise_Inner_L
-        controlType: 0
-        lipsyncControlType: 0
-        emoteControlType: 0
-        eyesControlType: 1
-        durationDelay: 0
-        durationOn: 0.5
-        durationHold: 0.5
-        durationOff: 0.5
-        isSmoothDisable: 0
-        isPersistent: 0
-        expressionType: 1
-        easing: 4
-        expressionHandler: 1
-        isAnimatorControlled: 0
-        useOffset: 0
-        useOffsetFollow: 1
-        inspFoldout: 0
-        enabled: 1
-        isBonePreviewUpdated: 0
-        frac: 1
-        directionType: 0
-      - name: Brow_Raise_Inner_R
-        controlType: 0
-        lipsyncControlType: 0
-        emoteControlType: 0
-        eyesControlType: 1
-        durationDelay: 0
-        durationOn: 0.5
-        durationHold: 0.5
-        durationOff: 0.5
-        isSmoothDisable: 0
-        isPersistent: 0
-        expressionType: 0
-        easing: 4
-        expressionHandler: 0
-        isAnimatorControlled: 0
-        useOffset: 0
-        useOffsetFollow: 1
-        inspFoldout: 0
-        enabled: 1
-        isBonePreviewUpdated: 0
-        frac: 1
-        directionType: 0
-      - name: component 2
-        controlType: 0
-        lipsyncControlType: 0
-        emoteControlType: 0
-        eyesControlType: 1
-        durationDelay: 0
-        durationOn: 0.5
-        durationHold: 0.5
-        durationOff: 0.5
-        isSmoothDisable: 0
-        isPersistent: 0
-        expressionType: 0
-        easing: 4
-        expressionHandler: 0
-        isAnimatorControlled: 0
-        useOffset: 0
-        useOffsetFollow: 1
-        inspFoldout: 1
-        enabled: 1
-        isBonePreviewUpdated: 0
-        frac: 1
-        directionType: 0
-      controllerVars:
-      - bone: {fileID: 0}
-        baseTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
-        startTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
-        endTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
-        fracPos: 1
-        fracRot: 1
-        fracScl: 1
-        inspIsSetStart: 0
-        inspIsSetEnd: 0
-        umaUepProxy: {fileID: 0}
-        uepAmount: 0
-        smr: {fileID: 0}
-        blendIndex: 8
-        minShape: 0
-        maxShape: 0.5
-        eyeGizmo: {fileID: 0}
-        eventSender: {fileID: 0}
-        animator: {fileID: 0}
-        isTriggerParameterBiDirectional: 0
-        eventIdentityName: 
-        onState: 2
-        display2dImage: 0
-        isRestNull: 0
-        spriteRenderer: {fileID: 0}
-        sprites: []
-        uguiRenderer: {fileID: 0}
-        textureRenderer: {fileID: 0}
-        materialIndex: 0
-        backupTextures: []
-        textures: []
-        materialRenderer: {fileID: 0}
-        materials: []
-      - bone: {fileID: 0}
-        baseTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
-        startTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
-        endTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
-        fracPos: 1
-        fracRot: 1
-        fracScl: 1
-        inspIsSetStart: 0
-        inspIsSetEnd: 0
-        umaUepProxy: {fileID: 0}
-        uepAmount: 0
-        smr: {fileID: 0}
-        blendIndex: 9
-        minShape: 0
-        maxShape: 0.5
-        eyeGizmo: {fileID: 0}
-        eventSender: {fileID: 0}
-        animator: {fileID: 0}
-        isTriggerParameterBiDirectional: 0
-        eventIdentityName: 
-        onState: 2
-        display2dImage: 0
-        isRestNull: 0
-        spriteRenderer: {fileID: 0}
-        sprites: []
-        uguiRenderer: {fileID: 0}
-        textureRenderer: {fileID: 0}
-        materialIndex: 0
-        backupTextures: []
-        textures: []
-        materialRenderer: {fileID: 0}
-        materials: []
-      - bone: {fileID: 0}
-        baseTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
-        startTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
-        endTform:
-          pos: {x: 0, y: 0, z: 0}
-          rot: {x: 0, y: 0, z: 0, w: 0}
-          scale: {x: 0, y: 0, z: 0}
-        fracPos: 1
-        fracRot: 1
-        fracScl: 1
-        inspIsSetStart: 0
-        inspIsSetEnd: 0
-        umaUepProxy: {fileID: 0}
-        uepAmount: 0
-        smr: {fileID: 0}
-        blendIndex: 33
-        minShape: 0
-        maxShape: 0.5
-        eyeGizmo: {fileID: 0}
-        eventSender: {fileID: 0}
-        animator: {fileID: 0}
-        isTriggerParameterBiDirectional: 0
-        eventIdentityName: 
-        onState: 2
-        display2dImage: 0
-        isRestNull: 0
-        spriteRenderer: {fileID: 0}
-        sprites: []
-        uguiRenderer: {fileID: 0}
-        textureRenderer: {fileID: 0}
-        materialIndex: 0
-        backupTextures: []
-        textures: []
-        materialRenderer: {fileID: 0}
-        materials: []
-      inspFoldout: 0
-      previewDisplayMode: 0
-      collectionExpand: 0
-    isRandomEmote: 1
-    isLipsyncEmphasisEmote: 1
-    isRepeaterEmote: 0
-    repeaterDelay: 0
-    startDelay: 0
-    isPersistent: 0
-    isHoldVariationExempt: 0
-    isAlwaysEmphasisEmote: 1
-    hasBeenFired: 0
-    frac: 1
-  - expData:
       name: soften
       components:
       - name: Mouth_Smile_L
@@ -5261,7 +5290,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -5283,7 +5312,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -5305,8 +5334,8 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
-        enabled: 0
+        inspFoldout: 1
+        enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
         directionType: 0
@@ -5327,8 +5356,8 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
-        enabled: 0
+        inspFoldout: 1
+        enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
         directionType: 0
@@ -5349,7 +5378,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -5371,7 +5400,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -5393,7 +5422,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -5441,7 +5470,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 34
         minShape: 0
         maxShape: 0.5
@@ -5482,7 +5511,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 35
         minShape: 0
         maxShape: 0.5
@@ -5523,7 +5552,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 21
         minShape: 0
         maxShape: 0.3
@@ -5564,7 +5593,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 22
         minShape: 0
         maxShape: 0.3
@@ -5605,7 +5634,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 8
         minShape: 0
         maxShape: 0.5
@@ -5646,7 +5675,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 9
         minShape: 0
         maxShape: 0.5
@@ -5687,7 +5716,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 10
         minShape: 0
         maxShape: 0.3
@@ -5763,7 +5792,7 @@ MonoBehaviour:
     hasBeenFired: 0
     frac: 1
   - expData:
-      name: BrowsUp
+      name: exaspr
       components:
       - name: Brow_Raise_Inner_L
         controlType: 0
@@ -5782,7 +5811,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -5804,7 +5833,213 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+        directionType: 0
+      - name: component 2
+        controlType: 0
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.5
+        durationHold: 0.5
+        durationOff: 0.5
+        isSmoothDisable: 0
+        isPersistent: 0
+        expressionType: 0
+        easing: 4
+        expressionHandler: 0
+        isAnimatorControlled: 0
+        useOffset: 0
+        useOffsetFollow: 1
+        inspFoldout: 1
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+        directionType: 0
+      controllerVars:
+      - bone: {fileID: 0}
+        baseTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        startTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 1
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 0
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 7413333758033528898}
+        blendIndex: 8
+        minShape: 0
+        maxShape: 0.5
+        eyeGizmo: {fileID: 0}
+        eventSender: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      - bone: {fileID: 0}
+        baseTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        startTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 1
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 0
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 7413333758033528898}
+        blendIndex: 9
+        minShape: 0
+        maxShape: 0.5
+        eyeGizmo: {fileID: 0}
+        eventSender: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      - bone: {fileID: 0}
+        baseTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        startTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 1
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 0
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 7413333758033528898}
+        blendIndex: 33
+        minShape: 0
+        maxShape: 0.5
+        eyeGizmo: {fileID: 0}
+        eventSender: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      inspFoldout: 0
+      previewDisplayMode: 0
+      collectionExpand: 0
+    isRandomEmote: 1
+    isLipsyncEmphasisEmote: 1
+    isRepeaterEmote: 0
+    repeaterDelay: 0
+    startDelay: 0
+    isPersistent: 0
+    isHoldVariationExempt: 0
+    isAlwaysEmphasisEmote: 1
+    hasBeenFired: 0
+    frac: 1
+  - expData:
+      name: BrowsUp
+      components:
+      - name: Brow_Raise_Inner_L
+        controlType: 0
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.5
+        durationHold: 0.5
+        durationOff: 0.5
+        isSmoothDisable: 0
+        isPersistent: 0
+        expressionType: 1
+        easing: 4
+        expressionHandler: 1
+        isAnimatorControlled: 0
+        useOffset: 0
+        useOffsetFollow: 1
+        inspFoldout: 1
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+        directionType: 0
+      - name: Brow_Raise_Inner_R
+        controlType: 0
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.5
+        durationHold: 0.5
+        durationOff: 0.5
+        isSmoothDisable: 0
+        isPersistent: 0
+        expressionType: 0
+        easing: 4
+        expressionHandler: 0
+        isAnimatorControlled: 0
+        useOffset: 0
+        useOffsetFollow: 1
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -5826,7 +6061,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -5848,7 +6083,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -5896,7 +6131,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 8
         minShape: 0
         maxShape: 0.5
@@ -5937,7 +6172,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 9
         minShape: 0
         maxShape: 0.5
@@ -5978,7 +6213,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 10
         minShape: 0
         maxShape: 0.7
@@ -6019,7 +6254,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 11
         minShape: 0
         maxShape: 0.7
@@ -6114,7 +6349,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -6136,7 +6371,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -6158,7 +6393,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -6180,7 +6415,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -6202,7 +6437,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -6224,7 +6459,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -6250,7 +6485,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 8
         minShape: 0
         maxShape: 0.3
@@ -6291,7 +6526,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 9
         minShape: 0
         maxShape: 0.3
@@ -6332,7 +6567,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 12
         minShape: 0
         maxShape: 0.3
@@ -6373,7 +6608,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 13
         minShape: 0
         maxShape: 0.3
@@ -6414,7 +6649,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 21
         minShape: 0
         maxShape: 0.5
@@ -6455,7 +6690,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 22
         minShape: 0
         maxShape: 0.5
@@ -6509,7 +6744,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -6531,7 +6766,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -6553,7 +6788,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -6575,7 +6810,7 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
+        inspFoldout: 1
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -6601,7 +6836,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 28
         minShape: 0
         maxShape: 0.3
@@ -6642,7 +6877,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 29
         minShape: 0
         maxShape: 0.3
@@ -6683,7 +6918,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 21
         minShape: 0
         maxShape: 0.3
@@ -6724,7 +6959,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 22
         minShape: 0
         maxShape: 0.3
@@ -6778,8 +7013,8 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
-        enabled: 0
+        inspFoldout: 1
+        enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
         directionType: 0
@@ -6800,8 +7035,8 @@ MonoBehaviour:
         isAnimatorControlled: 0
         useOffset: 0
         useOffsetFollow: 1
-        inspFoldout: 0
-        enabled: 0
+        inspFoldout: 1
+        enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
         directionType: 0
@@ -6826,7 +7061,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 90
         minShape: 0
         maxShape: 0.4
@@ -6867,7 +7102,7 @@ MonoBehaviour:
         inspIsSetEnd: 0
         umaUepProxy: {fileID: 0}
         uepAmount: 0
-        smr: {fileID: 0}
+        smr: {fileID: 7413333758033528898}
         blendIndex: 91
         minShape: 0
         maxShape: 0.4
@@ -6916,9 +7151,9 @@ MonoBehaviour:
   configReady: 1
   warnOnNullRefs: 1
   inspSalsaLinked: 1
-  inspStateFoldoutProcessing: 0
-  inspStateFoldoutSettings: 0
-  inspStateFoldoutEmotes: 0
+  inspStateFoldoutProcessing: 1
+  inspStateFoldoutSettings: 1
+  inspStateFoldoutEmotes: 1
   inspCollectionDisplayMode: 0
 --- !u!114 &7588413680204403791
 MonoBehaviour:
@@ -12995,7 +13230,7 @@ MonoBehaviour:
   inspSalsaLinked: 1
   inspStateFoldoutProcessing: 0
   inspStateFoldoutSettings: 0
-  inspStateFoldoutEmotes: 0
+  inspStateFoldoutEmotes: 1
   inspCollectionDisplayMode: 1
 --- !u!114 &8355851747266810462
 MonoBehaviour:
@@ -13699,10 +13934,144 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Normal: {fileID: 1216915387343539521}
-  Angry: {fileID: 1216915387343539521}
+  Angry: {fileID: 7588413680204403791}
   SALSA: {fileID: 3789393413891269715}
   eyes: {fileID: 8355851747266810462}
   isAngry: 0
+--- !u!114 &3795537115593970401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2480059164636416656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c291f4e4904d634c8738098b3b333ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player_Transform: {fileID: 0}
+  _distanceThreshold: 6
+  _CoolDown: 30
+  LocationGameObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Debug_DistanceToPlayer: 0
+  Debug_CoolDown: 0
+  Debug_ClosestLocation: 0
+--- !u!65 &4383189288741265809
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2480059164636416656}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5, y: 5, z: 5}
+  m_Center: {x: 0, y: 0.86, z: 0}
+--- !u!114 &1000992637136370488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2480059164636416656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05aa3cdd3ee246a0a8e5ca86bcfba893, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7113792892507002334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2480059164636416656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88bce56f6985ef84f8835a0152628fa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faceModel: 3
+  <FacialExpressionData>k__BackingField:
+    Head:
+      Renderer: {fileID: 0}
+      VisemeEffectorsList: {fileID: 0}
+      WeightBounds: {x: 0, y: 1}
+    Teeth:
+      Renderer: {fileID: 0}
+      VisemeEffectorsList: {fileID: 0}
+      WeightBounds: {x: 0, y: 1}
+    Tongue:
+      Renderer: {fileID: 0}
+      VisemeEffectorsList: {fileID: 0}
+      WeightBounds: {x: 0, y: 1}
+    JawBoneEffector: {fileID: 0}
+    TongueBoneEffector: {fileID: 0}
+    JawBone: {fileID: 0}
+    TongueBone: {fileID: 0}
+  <WeightBlendingPower>k__BackingField: 0
+  characterEmotions: []
+--- !u!114 &6320731804697490275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2480059164636416656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90681fd706b932243875a03c4f2b90a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseVisibleListOfEmotions: 0
+  characterEmotions: []
+  EmotinalState_Blend: 0
+  emotionPool1:
+  - Serenity
+  - Acceptance
+  - Trust
+  - Interest
+  emotionPool2:
+  - Joy
+  - Admiration
+  - Anticipation
+  - Vigilance
+  emotionPool3:
+  - Ecstasy
+  - Amazement
+  - Surprise
+  emotionPool4:
+  - Apprehension
+  - Fear
+  - Terror
+  emotionPool5:
+  - Pensiveness
+  - Sadness
+  - Grief
+  emotionPool6:
+  - Boredom
+  - Disgust
+  - Loathing
+  emotionPool7:
+  - Annoyance
+  - Anger
+  - Rage
 --- !u!4 &2963685244234584106 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5641141397185297874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
