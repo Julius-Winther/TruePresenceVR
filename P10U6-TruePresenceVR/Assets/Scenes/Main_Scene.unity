@@ -365,7 +365,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 2.41, z: 10}
+  m_Size: {x: 0.2, y: 4.49, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &140945310
 MeshFilter:
@@ -427,7 +427,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.6, y: 2.41, z: 8}
+  m_Size: {x: 0.6, y: 4.49, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &187165869
 MeshFilter:
@@ -1121,7 +1121,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 2.41, z: 5.46}
+  m_Size: {x: 0.2, y: 4.49, z: 5.46}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &421708625
 MeshFilter:
@@ -2406,7 +2406,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 2.41, z: 1.34}
+  m_Size: {x: 0.2, y: 4.49, z: 1.34}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &734544648
 MeshFilter:
@@ -2498,6 +2498,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 93cc77814de9c45428ff905b372fc6f5, type: 3}
   m_PrefabInstance: {fileID: 757504520}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &765658178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 765658179}
+  - component: {fileID: 765658181}
+  - component: {fileID: 765658180}
+  m_Layer: 0
+  m_Name: Roof_Collider (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &765658179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765658178}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.67, y: 3.5, z: -0.062}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1586475243}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &765658180
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765658178}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 23.67, y: 0.21, z: 28.67}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &765658181
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765658178}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &768760869
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,7 +2797,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.51, y: 2.41, z: 2.3}
+  m_Size: {x: 1.51, y: 4.49, z: 2.3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &802206371
 MeshFilter:
@@ -2797,7 +2859,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 2.41, z: 2.12}
+  m_Size: {x: 0.2, y: 4.49, z: 2.12}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &827255232
 MeshFilter:
@@ -3899,7 +3961,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 2.41, z: 13}
+  m_Size: {x: 0.2, y: 4.49, z: 13}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1016090146
 MeshFilter:
@@ -3961,7 +4023,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 2.41, z: 2.21}
+  m_Size: {x: 0.2, y: 4.49, z: 2.21}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1056535970
 MeshFilter:
@@ -4144,7 +4206,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 2.41, z: 1.7}
+  m_Size: {x: 0.2, y: 4.49, z: 1.7}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1201185702
 MeshFilter:
@@ -4473,7 +4535,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.6, y: 2.41, z: 6}
+  m_Size: {x: 0.6, y: 4.49, z: 6}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1375834934
 MeshFilter:
@@ -4949,7 +5011,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 2.41, z: 7.8}
+  m_Size: {x: 0.2, y: 4.49, z: 7.8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1444951474
 MeshFilter:
@@ -5016,7 +5078,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 2.41, z: 8.5}
+  m_Size: {x: 0.2, y: 4.49, z: 8.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1484215549
 MeshFilter:
@@ -5357,7 +5419,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 2.41, z: 2.5}
+  m_Size: {x: 0.2, y: 4.49, z: 2.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1525707247
 MeshFilter:
@@ -5764,7 +5826,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 2.41, z: 7.8}
+  m_Size: {x: 0.2, y: 4.49, z: 7.8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1563870335
 MeshFilter:
@@ -5820,6 +5882,7 @@ Transform:
   - {fileID: 1201185700}
   - {fileID: 734544646}
   - {fileID: 421708623}
+  - {fileID: 765658179}
   m_Father: {fileID: 891469490}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1606498775
@@ -6252,7 +6315,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 2.41, z: 7.8}
+  m_Size: {x: 0.2, y: 4.49, z: 7.8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1676188022
 MeshFilter:
@@ -6756,7 +6819,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.85, y: 2.41, z: 2.3}
+  m_Size: {x: 0.85, y: 4.49, z: 2.3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1771415017
 MeshFilter:
@@ -7791,7 +7854,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.6, y: 2.41, z: 8}
+  m_Size: {x: 0.6, y: 4.49, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &2020507236
 MeshFilter:
