@@ -66,7 +66,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "game::@d02bb112ea9f9c2ed29f",
-					"jsonFile" : "target-game-Debug-0861e0835a3f10e73845.json",
+					"jsonFile" : "target-game-Debug-ea4930cb4b60ff025a1f.json",
 					"name" : "game",
 					"projectIndex" : 1
 				}
@@ -77,7 +77,7 @@
 	"paths" : 
 	{
 		"build" : "C:/Users/juliu/Documents/GitHub/TruePresenceVR/P10U6-TruePresenceVR/.utmp/Debug/54124v1h/arm64-v8a",
-		"source" : "C:/Users/juliu/Documents/GitHub/TruePresenceVR/P10U6-TruePresenceVR/Library/PramData/AndroidApplicationController/Cache/com.BuffetKlubben.TruePresenceVR/gradle-project/unityLibrary/src/main/cpp"
+		"source" : "C:/Users/juliu/Documents/GitHub/TruePresenceVR/P10U6-TruePresenceVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp"
 	},
 	"version" : 
 	{

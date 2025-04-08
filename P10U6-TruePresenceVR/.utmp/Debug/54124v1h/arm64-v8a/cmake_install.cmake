@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/juliu/Documents/GitHub/TruePresenceVR/P10U6-TruePresenceVR/Library/PramData/AndroidApplicationController/Cache/com.BuffetKlubben.TruePresenceVR/gradle-project/unityLibrary/src/main/cpp
+# Install script for directory: C:/Users/juliu/Documents/GitHub/TruePresenceVR/P10U6-TruePresenceVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

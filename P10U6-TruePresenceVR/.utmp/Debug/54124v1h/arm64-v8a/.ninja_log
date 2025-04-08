@@ -1,10 +1,10 @@
 # ninja log v5
-29	1193	7635756341570397	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	c9bc14709c915ea4
-44	1206	7635756341537951	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	4ddeef3663b7f670
-8	1210	7635756341756178	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	abe6d3b628ba1d50
-22	1216	7635756341428631	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	f0987278e88c781
-52	1264	7635756342381027	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	ab7d8edea752063d
-1	1283	7635756342618944	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	8735bdadd82585bb
-36	1358	7635756343332321	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	96996da38edf59b5
-15	1407	7635756343861386	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	4e219181a73bd9ae
-1408	1525	7635756345091749	C:/Users/juliu/Documents/GitHub/TruePresenceVR/P10U6-TruePresenceVR/Library/PramData/AndroidApplicationController/Cache/com.BuffetKlubben.TruePresenceVR/gradle-project/unityLibrary/build/intermediates/cxx/Debug/54124v1h/obj/arm64-v8a/libgame.so	c18f9d3d6a5dcce6
+0	1522	7658038128376668	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	b64130f97be86cdb
+35	1528	7658038128417806	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	5eb48d816ab2f178
+46	1557	7658038128788881	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6738c4dc7d4c1db0
+56	1569	7658038128945458	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	9b83fd2da5223c02
+13	1619	7658038129453702	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	f8612571ee10d09f
+19	1652	7658038129790001	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	cbfbf4c06e071364
+27	1692	7658038130206187	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	7fe48e75bb79b16b
+7	1773	7658038130991214	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	7b0fa087405f6e00
+1773	1955	7658038132917982	C:/Users/juliu/Documents/GitHub/TruePresenceVR/P10U6-TruePresenceVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/54124v1h/obj/arm64-v8a/libgame.so	826a14bc148649f8

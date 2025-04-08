@@ -1,12 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
 using Convai.Scripts.Runtime.Features.LipSync;
-using Convai.Scripts.Runtime.Core;
-using UnityEditor.Rendering;
-using Unity.VisualScripting;
-using System;
-using Unity.VisualScripting.FullSerializer;
-using Unity.IO.LowLevel.Unsafe;
 
 
 public class EmotionHandler : MonoBehaviour
