@@ -52,18 +52,21 @@ public class FollowBehaviorV2 : MonoBehaviour
 
     void Update()
     {
-        closestLocation = currentDistance;
-        foreach(GameObject location in LocationGameObjects)
+        if(LocationGameObjects != null)
         {
-            currentDistance = Vector3.Distance(this.transform.position, location.transform.position);
+            closestLocation = currentDistance;
+            foreach(GameObject location in LocationGameObjects)
+            {
+                currentDistance = Vector3.Distance(this.transform.position, location.transform.position);
 
 
-             if(Mathf.Abs(currentDistance) <= Mathf.Abs(closestLocation))
-             {
-                closestLocation = currentDistance;
-                closestLocationName = location.name;
-                _dynamicInfoController.SetDynamicInfo("Current location for Emilio and the player is " + closestLocationName + " and its " + closestLocation + "M away");
-             }
+                if(Mathf.Abs(currentDistance) <= Mathf.Abs(closestLocation))
+                {
+                    closestLocation = currentDistance;
+                    closestLocationName = location.name;
+                    _dynamicInfoController.SetDynamicInfo("Current location for Emilio and the player is " + closestLocationName + " and its " + closestLocation + "M away");
+                }
+        }
 
         }
 
