@@ -6517,7 +6517,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 579788132}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 1663153912}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -13089,8 +13090,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.24902253, y: 4.49, z: 24.356337}
-  m_Center: {x: -0.02451133, y: 0, z: -3.0814838}
+  m_Size: {x: 4.5919466, y: 4.49, z: 24.356337}
+  m_Center: {x: -2.0235324, y: 0, z: -3.0814838}
 --- !u!33 &1676188022
 MeshFilter:
   m_ObjectHideFlags: 0
