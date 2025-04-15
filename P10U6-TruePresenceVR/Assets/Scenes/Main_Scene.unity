@@ -4982,8 +4982,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.01142046, y: 0.01833333, z: 0.005714137}
-  m_Center: {x: 0.000010630814, y: -0.00016231972, z: 0.0028570686}
+  m_Size: {x: 0.01142046, y: 0.01833333, z: 0.009449022}
+  m_Center: {x: 0.0000106310845, y: -0.00016231954, z: 0.0047245123}
 --- !u!114 &660777619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6508,7 +6508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 579788132}
   m_Colliders:
-  - {fileID: 1663153912}
+  - {fileID: 847706454}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -7345,8 +7345,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0361994, y: 0.02090031, z: 0.021139104}
-  m_Center: {x: 0, y: 0, z: 0.0005695517}
+  m_Size: {x: 0.036199395, y: 0.02090031, z: 0.03752636}
+  m_Center: {x: 0, y: -0, z: 0.008763189}
 --- !u!1 &919495670
 GameObject:
   m_ObjectHideFlags: 0
@@ -14405,8 +14405,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0361994, y: 0.02090031, z: 0.021139104}
-  m_Center: {x: 0, y: 0, z: 0.0005695517}
+  m_Size: {x: 0.036199395, y: 0.02090031, z: 0.029576883}
+  m_Center: {x: 0, y: -0, z: 0.004788444}
 --- !u!1 &1838432847
 GameObject:
   m_ObjectHideFlags: 0
@@ -17023,6 +17023,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1376597620}
     m_Modifications:
+    - target: {fileID: 715857240873940611, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2769394321955819529, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.805
@@ -17067,6 +17071,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4643081880494473662, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
     - target: {fileID: 5416620727364547691, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_CameraYOffset
       value: 1
@@ -17110,6 +17118,14 @@ PrefabInstance:
     - target: {fileID: 8383822785277466297, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -116.778
+      objectReference: {fileID: 0}
+    - target: {fileID: 8553368867606921181, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8553368867606921181, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
+      propertyPath: m_EnableUIInteraction
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8748795455592018536, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_MoveSpeed
