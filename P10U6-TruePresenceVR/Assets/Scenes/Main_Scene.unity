@@ -17083,6 +17083,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.7
       objectReference: {fileID: 0}
+    - target: {fileID: 6252802607603323141, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
+      propertyPath: m_HitClosestOnly
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252802607603323141, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 2147483745
+      objectReference: {fileID: 0}
     - target: {fileID: 6323894869491070003, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_RenderPostProcessing
       value: 1
