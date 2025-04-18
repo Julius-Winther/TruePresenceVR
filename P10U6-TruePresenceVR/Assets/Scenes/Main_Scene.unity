@@ -12514,6 +12514,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3200542808405543000, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808763661873981086, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808763661873981086, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3842415631613375401, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
       propertyPath: m_Color.b
       value: 0.6117647
@@ -12525,6 +12537,22 @@ PrefabInstance:
     - target: {fileID: 3842415631613375401, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
       propertyPath: m_Color.r
       value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 5248907052497758614, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385110323150031343, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385110323150031343, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385110323150031343, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7625403055362601634, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
       propertyPath: m_Name
@@ -17459,10 +17487,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1376597620}
     m_Modifications:
-    - target: {fileID: 1848854087443099829, guid: c1b714b7753e802458b57253a201132c, type: 3}
-      propertyPath: lookTarget
-      value: 
-      objectReference: {fileID: 103815841}
+    - target: {fileID: 911373546581429988, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: autoAdjustMicrophone
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2480059164636416656, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: m_Name
       value: Emilio
@@ -17522,6 +17550,34 @@ PrefabInstance:
     - target: {fileID: 2963685244234584106, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407787843198152306, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'LocationGameObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 477932895}
+    - target: {fileID: 3407787843198152306, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'LocationGameObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1721216136}
+    - target: {fileID: 3407787843198152306, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'LocationGameObjects.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1639851639}
+    - target: {fileID: 3407787843198152306, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'LocationGameObjects.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1371162796}
+    - target: {fileID: 3407787843198152306, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'LocationGameObjects.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1529196718}
+    - target: {fileID: 3622457339097111554, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: emotes.Array.data[12].expData.inspFoldout
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946763127088403410, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4946763127088403410, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: <TargetObject>k__BackingField
