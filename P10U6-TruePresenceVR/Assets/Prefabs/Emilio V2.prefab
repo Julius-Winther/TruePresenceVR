@@ -437,6 +437,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[7].expData.components.Array.data[0].enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.data[0].enabled
       value: 1
       objectReference: {fileID: 0}
@@ -484,6 +488,10 @@ PrefabInstance:
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[5].smr
       value: 
       objectReference: {fileID: 7413333758033528898}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[7].expData.components.Array.data[12].enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.data[0].durationOn
       value: 0.5
@@ -651,6 +659,18 @@ PrefabInstance:
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[5].onState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[7].expData.controllerVars.Array.data[0].maxShape
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[8].expData.controllerVars.Array.data[1].maxShape
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[8].expData.controllerVars.Array.data[3].maxShape
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.data[0].durationHold
