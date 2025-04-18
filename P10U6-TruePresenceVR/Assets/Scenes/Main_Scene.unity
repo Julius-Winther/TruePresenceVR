@@ -625,6 +625,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!1 &83906794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 83906795}
+  m_Layer: 0
+  m_Name: 'VR_Headset_Oculus (Location) '
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &83906795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83906794}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.22, y: 0, z: -6.894}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1882276874}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &94538536
 GameObject:
   m_ObjectHideFlags: 0
@@ -4731,7 +4762,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9149507189245197418, guid: 6eeb46c6a1489f8448b79cd26b6a4ae6, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9149507189245197418, guid: 6eeb46c6a1489f8448b79cd26b6a4ae6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4999,7 +5030,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660777609}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
@@ -5274,6 +5305,8 @@ Transform:
   - {fileID: 1909005538}
   - {fileID: 845245149}
   - {fileID: 1518212888}
+  - {fileID: 1001617529}
+  - {fileID: 1095748409}
   m_Father: {fileID: 1488720005}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &698491288
@@ -8256,7 +8289,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1789578943}
+    m_TransformParent: {fileID: 680995028}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8302,13 +8335,25 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -6829157927117473738, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -5568371526223589888, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -3479797040812946941, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3479797040812946941, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
       propertyPath: m_Name
@@ -8318,13 +8363,25 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1569539906205032164, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1569539906205032164, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2448734117451779196, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448734117451779196, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8563,7 +8620,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1789578943}
+    m_TransformParent: {fileID: 680995028}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8605,9 +8662,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6829157927117473738, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -3479797040812946941, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
       propertyPath: m_Name
       value: RazvanBench (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569539906205032164, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448734117451779196, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9111,6 +9192,37 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3fa988b0d497ed949a991d7f81953d76, type: 3}
   m_PrefabInstance: {fileID: 1816475689}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1245119086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1245119087}
+  m_Layer: 0
+  m_Name: Razvan_Bench (Location)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1245119087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245119086}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.495, y: 0, z: -13.663}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1882276874}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1259391450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9665,7 +9777,7 @@ Transform:
   m_GameObject: {fileID: 1371162796}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.465, y: 0, z: -8.82}
+  m_LocalPosition: {x: -2.069, y: 0, z: -7.998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11540,7 +11652,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1529945819
 Transform:
@@ -13807,8 +13919,6 @@ Transform:
   - {fileID: 1863100151}
   - {fileID: 504850058}
   - {fileID: 1882276874}
-  - {fileID: 1001617529}
-  - {fileID: 1095748409}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1795045593
@@ -14643,7 +14753,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1854203956
 Transform:
@@ -14780,6 +14890,12 @@ MonoBehaviour:
   - Name: MeLab Inside
     Description: the main lab space
     gameObject: {fileID: 1371162796}
+  - Name: Razvan Bench
+    Description: Haptic Feedback Bench
+    gameObject: {fileID: 1245119086}
+  - Name: VR Headset Oculus Quest
+    Description: three Oculus Quest headset on a shelf
+    gameObject: {fileID: 83906794}
   DynamicMoveTargetIndicator: {fileID: 504850058}
 --- !u!1 &1882276873
 GameObject:
@@ -14815,6 +14931,8 @@ Transform:
   - {fileID: 1639851640}
   - {fileID: 1371162797}
   - {fileID: 1529196719}
+  - {fileID: 1245119087}
+  - {fileID: 83906795}
   m_Father: {fileID: 1789578943}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1884223912
@@ -15199,7 +15317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4673c2018d5991848aa5328c9caf220d, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4673c2018d5991848aa5328c9caf220d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15228,7 +15346,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157073731}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
