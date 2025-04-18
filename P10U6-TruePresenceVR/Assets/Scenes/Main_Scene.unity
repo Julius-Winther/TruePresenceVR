@@ -2284,7 +2284,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &331304581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5902,42 +5902,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 331304580}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1741383038}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 954988708}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!65 &768760871
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6021,8 +5985,8 @@ Transform:
   m_GameObject: {fileID: 768760869}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.78, y: -1.9008456, z: 3.508}
-  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_LocalPosition: {x: 1.78, y: -1.9008456, z: 2.48}
+  m_LocalScale: {x: 6, y: 6, z: 6.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1277463347}
@@ -7605,7 +7569,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &954988709
 Transform:
   m_ObjectHideFlags: 0
@@ -13494,7 +13458,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1741383039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14810,11 +14774,11 @@ MonoBehaviour:
   - Name: Me Lab Entrance (Start)
     Description: 
     gameObject: {fileID: 1639851639}
-  - Name: Razvan
-    Description: 
+  - Name: Razvan3000
+    Description: also known as the surround sound system
     gameObject: {fileID: 1529196718}
   - Name: MeLab Inside
-    Description: 
+    Description: the main lab space
     gameObject: {fileID: 1371162796}
   DynamicMoveTargetIndicator: {fileID: 504850058}
 --- !u!1 &1882276873
@@ -17300,7 +17264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2769394321955819529, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.228
+      value: 6.808
       objectReference: {fileID: 0}
     - target: {fileID: 2769394321955819529, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17496,6 +17460,22 @@ PrefabInstance:
       value: Emilio
       objectReference: {fileID: 0}
     - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[1].onSectionStart.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[4].onSectionStart.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 632033265}
@@ -17552,6 +17532,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3407787843198152306, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: _player_Transform
+      value: 
+      objectReference: {fileID: 337588662}
+    - target: {fileID: 3407787843198152306, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: 'LocationGameObjects.Array.data[0]'
       value: 
       objectReference: {fileID: 477932895}
@@ -17583,7 +17567,8 @@ PrefabInstance:
       propertyPath: <TargetObject>k__BackingField
       value: 
       objectReference: {fileID: 103815841}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2685880471606367643, guid: c1b714b7753e802458b57253a201132c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
