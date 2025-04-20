@@ -300,9 +300,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 15.081
       objectReference: {fileID: 0}
+    - target: {fileID: 3508967544469701721, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'CC_Base_R_ToeBase'\n\tTransform 'CC_Base_R_Upperarm'\n\tTransform
+        'CC_Base_Pelvis'\n\tTransform 'CC_Base_L_Foot'\n\tTransform 'CC_Base_L_Calf'\n\tTransform
+        'CC_Base_R_Ring3'\n\tTransform 'CC_Base_L_Index3'\n\tTransform 'CC_Base_R_Calf'\n\tTransform
+        'CC_Base_R_Pinky2'\n\tTransform 'CC_Base_L_Pinky2'\n\tand more ...\n\tFrom
+        animation clip 'GenericTalk1'"
+      objectReference: {fileID: 0}
     - target: {fileID: 4972691535520507752, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_Name
       value: Emilio V2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[1].onSectionStart.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[4].onSectionStart.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027041825193577560, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5197884928421381002, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: _CoolDown
@@ -311,7 +337,11 @@ PrefabInstance:
     - target: {fileID: 5197884928421381002, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: _player_Transform
       value: 
-      objectReference: {fileID: 2963685244234584106}
+      objectReference: {fileID: 0}
+    - target: {fileID: 5197884928421381002, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: LocationGameObjects.Array.size
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5641141397185297874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.34554815
@@ -1050,7 +1080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: inspStateFoldoutVisemes
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: inspStateFoldoutSettings
@@ -1094,7 +1124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[0].expData.inspFoldout
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[1].expData.inspFoldout
@@ -4955,6 +4985,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3050034609373369796, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
     - {fileID: 9133316323336691021, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+    - {fileID: 4768843886314403939, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4962,11 +4993,6 @@ PrefabInstance:
 --- !u!4 &98067296840784397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7364541658930001909, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
-  m_PrefabInstance: {fileID: 7451342135297682936}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2963685244234584106 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5641141397185297874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
   m_PrefabInstance: {fileID: 7451342135297682936}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &3091478749321742159 stripped

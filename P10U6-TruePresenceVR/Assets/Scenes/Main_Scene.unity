@@ -17614,46 +17614,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1376597620}
     m_Modifications:
-    - target: {fileID: 911373546581429988, guid: c1b714b7753e802458b57253a201132c, type: 3}
-      propertyPath: autoAdjustMicrophone
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2480059164636416656, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: m_Name
       value: Emilio
       objectReference: {fileID: 0}
-    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
-      propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
-      propertyPath: sectionChangeEventsDataList.Array.data[1].onSectionStart.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
-      propertyPath: sectionChangeEventsDataList.Array.data[4].onSectionStart.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
-      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
-      propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 632033265}
-    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
-      propertyPath: sectionChangeEventsDataList.Array.data[1].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1741383038}
-    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
-      propertyPath: sectionChangeEventsDataList.Array.data[4].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 331304580}
-    - target: {fileID: 2498336531339567520, guid: c1b714b7753e802458b57253a201132c, type: 3}
-      propertyPath: sectionChangeEventsDataList.Array.data[8].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 954988708}
     - target: {fileID: 2963685244234584106, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.34554815
@@ -17705,33 +17669,28 @@ PrefabInstance:
     - target: {fileID: 3407787843198152306, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: 'LocationGameObjects.Array.data[1]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1639851639}
     - target: {fileID: 3407787843198152306, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: 'LocationGameObjects.Array.data[2]'
       value: 
-      objectReference: {fileID: 1639851639}
+      objectReference: {fileID: 1371162796}
     - target: {fileID: 3407787843198152306, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: 'LocationGameObjects.Array.data[3]'
       value: 
-      objectReference: {fileID: 1371162796}
+      objectReference: {fileID: 1529196718}
     - target: {fileID: 3407787843198152306, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: 'LocationGameObjects.Array.data[4]'
       value: 
-      objectReference: {fileID: 1529196718}
-    - target: {fileID: 3622457339097111554, guid: c1b714b7753e802458b57253a201132c, type: 3}
-      propertyPath: emotes.Array.data[12].expData.inspFoldout
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4946763127088403410, guid: c1b714b7753e802458b57253a201132c, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1245119086}
+    - target: {fileID: 3407787843198152306, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'LocationGameObjects.Array.data[5]'
+      value: 
+      objectReference: {fileID: 83906794}
     - target: {fileID: 4946763127088403410, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: <TargetObject>k__BackingField
       value: 
       objectReference: {fileID: 103815841}
-    m_RemovedComponents:
-    - {fileID: 2685880471606367643, guid: c1b714b7753e802458b57253a201132c, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
