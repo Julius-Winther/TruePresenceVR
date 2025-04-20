@@ -761,7 +761,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9af8bf21d95b183418b1c37053adfcd5, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 16ba78df2d86c5e48a7b5c29989bf58e, type: 2}
+      objectReference: {fileID: 2100000, guid: 19e39c2078fe0484b8d47a40580d5e0b, type: 2}
     - target: {fileID: 919132149155446097, guid: 9af8bf21d95b183418b1c37053adfcd5, type: 3}
       propertyPath: m_Name
       value: ScreenOn (1)
