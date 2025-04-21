@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _numberOfIdleAnimations: 3
   _timeThreshold: 5
-  _AnimationTransitionTime: 0.5
+  _AnimationTransitionTime: 1
   isIdle: 1
+  randomAnimChance: 6
 --- !u!1102 &-7553238460851743109
 AnimatorState:
   serializedVersion: 6
@@ -426,6 +427,7 @@ MonoBehaviour:
   _timeThreshold: 0
   _AnimationTransitionTime: 0
   isIdle: 0
+  randomAnimChance: 8
 --- !u!1101 &4571512603608627784
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -490,6 +492,7 @@ MonoBehaviour:
   _timeThreshold: 2
   _AnimationTransitionTime: 0.5
   isIdle: 0
+  randomAnimChance: 6
 --- !u!1102 &8305343202367973860
 AnimatorState:
   serializedVersion: 6
