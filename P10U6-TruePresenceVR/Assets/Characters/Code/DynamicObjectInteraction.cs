@@ -10,7 +10,7 @@ public class DynamicObjectInteraction : MonoBehaviour
     [SerializeField] private string objectName;
     private void Awake()
     {
-        _dynamicInfoController = GetComponent<DynamicInfoController>();
+        _dynamicInfoController = FindFirstObjectByType<DynamicInfoController>();
     }
     public void OnGrab()
     {
