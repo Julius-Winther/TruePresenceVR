@@ -440,6 +440,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
       insertIndex: -1
       addedObject: {fileID: 54140973}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 54140974}
   m_SourcePrefab: {fileID: 100100000, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
 --- !u!4 &54140967 stripped
 Transform:
@@ -514,6 +517,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 54140974}
+        m_TargetAssemblyTypeName: DynamicObjectInteraction, Assembly-CSharp
+        m_MethodName: OnGrab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
@@ -521,6 +536,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
         m_MethodName: set_isKinematic
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 54140974}
+        m_TargetAssemblyTypeName: DynamicObjectInteraction, Assembly-CSharp
+        m_MethodName: OnDrop
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -675,6 +702,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.028507829, y: 0.0204, z: 0.015384272}
   m_Center: {x: 0.004451321, y: 0.000000029649026, z: 0.0020575093}
+--- !u!114 &54140974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54140968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: An Oculus Quest VR Headset
 --- !u!1001 &61273678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22033,6 +22073,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1376597620}
     m_Modifications:
+    - target: {fileID: 911373546581429988, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: inspStateFoldoutVisemes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911373546581429988, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: visemes.Array.data[3].expData.inspFoldout
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911373546581429988, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: visemes.Array.data[3].expData.previewDisplayMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911373546581429988, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[0].isBonePreviewUpdated
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911373546581429988, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[4].isBonePreviewUpdated
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245841487733322095, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70712227
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245841487733322095, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000050436276
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245841487733322095, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000050934006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245841487733322095, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7070914
+      objectReference: {fileID: 0}
     - target: {fileID: 2480059164636416656, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: m_Name
       value: Emilio
@@ -22109,6 +22185,70 @@ PrefabInstance:
       propertyPath: <TargetObject>k__BackingField
       value: 
       objectReference: {fileID: 103815841}
+    - target: {fileID: 6297702499396606243, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.029025555
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297702499396606243, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.008996734
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297702499396606243, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000016785226
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297702499396606243, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9985686
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297702499396606243, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000007824342
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297702499396606243, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000014523686
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297702499396606243, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.053486142
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413333758033528898, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[30]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413333758033528898, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[40]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413333758033528898, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[44]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413333758033528898, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[45]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413333758033528898, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[46]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413333758033528898, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[50]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413333758033528898, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[51]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413333758033528898, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[53]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413333758033528898, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[61]'
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

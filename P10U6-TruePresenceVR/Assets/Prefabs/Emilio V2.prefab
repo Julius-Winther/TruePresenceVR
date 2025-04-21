@@ -181,6 +181,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[53]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[55]'
       value: 0
       objectReference: {fileID: 0}
@@ -388,7 +392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: inspStateFoldoutEmotes
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: inspCollectionDisplayMode
@@ -428,6 +432,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[3].expData.inspFoldout
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[4].expData.inspFoldout
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -519,6 +527,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[4].expData.previewDisplayMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[6].expData.previewDisplayMode
       value: 0
       objectReference: {fileID: 0}
@@ -536,6 +548,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[10].expData.previewDisplayMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[11].expData.previewDisplayMode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -1124,7 +1140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[0].expData.inspFoldout
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[1].expData.inspFoldout
@@ -1148,7 +1164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[6].expData.inspFoldout
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[0].expData.collectionExpand
@@ -1196,7 +1212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.size
-      value: 8
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.components.Array.size
@@ -1220,7 +1236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.size
-      value: 8
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.controllerVars.Array.size
@@ -1313,6 +1329,22 @@ PrefabInstance:
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[7].name
       value: component 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[8].frac
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[8].name
+      value: component 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[9].frac
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[9].name
+      value: component 9
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.components.Array.data[3].frac
@@ -1419,6 +1451,14 @@ PrefabInstance:
       value: component 8
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[10].frac
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[10].name
+      value: component 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[5].expData.components.Array.data[10].frac
       value: 1
       objectReference: {fileID: 0}
@@ -1496,6 +1536,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[7].easing
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[8].easing
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[9].easing
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -1631,7 +1679,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7413333758033528898}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[10].easing
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[1].enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[3].enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -1651,6 +1707,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[8].enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[9].enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[4].smr
       value: 
       objectReference: {fileID: 7413333758033528898}
@@ -1664,6 +1728,14 @@ PrefabInstance:
       objectReference: {fileID: 7413333758033528898}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[7].smr
+      value: 
+      objectReference: {fileID: 7413333758033528898}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].smr
+      value: 
+      objectReference: {fileID: 7413333758033528898}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].smr
       value: 
       objectReference: {fileID: 7413333758033528898}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -1815,6 +1887,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6297702499396606243}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[10].enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].smr
+      value: 
+      objectReference: {fileID: 7413333758033528898}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[4].bone
       value: 
       objectReference: {fileID: 6297702499396606243}
@@ -1828,6 +1908,14 @@ PrefabInstance:
       objectReference: {fileID: 6297702499396606243}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[7].bone
+      value: 
+      objectReference: {fileID: 6297702499396606243}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].bone
+      value: 
+      objectReference: {fileID: 6297702499396606243}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].bone
       value: 
       objectReference: {fileID: 6297702499396606243}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -1870,6 +1958,10 @@ PrefabInstance:
       propertyPath: visemes.Array.data[5].expData.controllerVars.Array.data[14].smr
       value: 
       objectReference: {fileID: 7413333758033528898}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].bone
+      value: 
+      objectReference: {fileID: 6297702499396606243}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[0].expData.components.Array.data[0].durationOn
       value: 0.132
@@ -1972,6 +2064,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[7].durationOn
+      value: 0.132
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[8].durationOn
+      value: 0.132
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[9].durationOn
       value: 0.132
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -2303,6 +2403,10 @@ PrefabInstance:
       value: 0.15708
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[10].durationOn
+      value: 0.132
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[1].durationOff
       value: 0.15708
       objectReference: {fileID: 0}
@@ -2355,6 +2459,22 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[8].durationOff
+      value: 0.15708
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[8].inspFoldout
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[9].durationOff
+      value: 0.15708
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[9].inspFoldout
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[4].fracPos
       value: 1
       objectReference: {fileID: 0}
@@ -2404,6 +2524,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[7].onState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].fracRot
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].fracScl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].onState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].fracRot
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].fracScl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].onState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -2847,6 +2991,26 @@ PrefabInstance:
       value: -0.75
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[10].durationOff
+      value: 0.15708
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[10].inspFoldout
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].fracRot
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].fracScl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].onState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[1].maxShape
       value: 0.5
       objectReference: {fileID: 0}
@@ -2856,7 +3020,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[3].maxShape
-      value: 0.5
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[4].maxShape
@@ -2872,7 +3036,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[7].maxShape
-      value: 0.5
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].maxShape
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].maxShape
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.controllerVars.Array.data[1].maxShape
@@ -3071,6 +3243,10 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].maxShape
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[5].expData.controllerVars.Array.data[10].maxShape
       value: 0.5
       objectReference: {fileID: 0}
@@ -3129,6 +3305,14 @@ PrefabInstance:
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[7].blendIndex
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].blendIndex
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].blendIndex
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.controllerVars.Array.data[3].blendIndex
@@ -3267,6 +3451,26 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[8].eyesControlType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[8].useOffsetFollow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[9].eyesControlType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[9].useOffsetFollow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].blendIndex
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.components.Array.data[3].eyesControlType
       value: 1
       objectReference: {fileID: 0}
@@ -3403,6 +3607,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[10].eyesControlType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[10].useOffsetFollow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[4].inspIsSetEnd
       value: 1
       objectReference: {fileID: 0}
@@ -3416,6 +3628,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[7].inspIsSetEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].inspIsSetEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].inspIsSetEnd
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -3456,6 +3676,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[5].expData.components.Array.data[14].useOffsetFollow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].inspIsSetEnd
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -3763,6 +3987,70 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].endTform.pos.x
+      value: -0.029025555
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].endTform.pos.y
+      value: 0.008996734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].endTform.pos.z
+      value: 0.0000016785226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].endTform.rot.w
+      value: 0.9504708
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].endTform.rot.x
+      value: -0.018780826
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].endTform.rot.y
+      value: 0.016894171
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].endTform.rot.z
+      value: 0.30978543
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].inspIsSetStart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].endTform.pos.x
+      value: -0.029025555
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].endTform.pos.y
+      value: 0.008996734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].endTform.pos.z
+      value: 0.0000016785226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].endTform.rot.w
+      value: 0.9504708
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].endTform.rot.x
+      value: -0.018780826
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].endTform.rot.y
+      value: 0.016894171
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].endTform.rot.z
+      value: 0.30978543
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].inspIsSetStart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[5].expData.controllerVars.Array.data[0].endTform.rot.w
       value: 0.6701449
       objectReference: {fileID: 0}
@@ -3879,6 +4167,38 @@ PrefabInstance:
       value: -0.053486142
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].endTform.pos.x
+      value: -0.029025555
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].endTform.pos.y
+      value: 0.008996734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].endTform.pos.z
+      value: 0.0000016785226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].endTform.rot.w
+      value: 0.9504708
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].endTform.rot.x
+      value: -0.018780826
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].endTform.rot.y
+      value: 0.016894171
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].endTform.rot.z
+      value: 0.30978543
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].inspIsSetStart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[4].baseTform.pos.x
       value: -0.029025555
       objectReference: {fileID: 0}
@@ -3988,6 +4308,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[7].baseTform.rot.z
+      value: -0.053486142
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].baseTform.pos.x
+      value: -0.029025555
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].baseTform.pos.y
+      value: 0.008996734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].baseTform.pos.z
+      value: 0.0000016785226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].baseTform.rot.w
+      value: 0.9985686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].baseTform.rot.x
+      value: 0.0000007824342
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].baseTform.rot.y
+      value: 0.000014523686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].baseTform.rot.z
+      value: -0.053486142
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].baseTform.pos.x
+      value: -0.029025555
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].baseTform.pos.y
+      value: 0.008996734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].baseTform.pos.z
+      value: 0.0000016785226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].baseTform.rot.w
+      value: 0.9985686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].baseTform.rot.x
+      value: 0.0000007824342
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].baseTform.rot.y
+      value: 0.000014523686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].baseTform.rot.z
       value: -0.053486142
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -4199,6 +4575,42 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[8].isAnimatorControlled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[9].isAnimatorControlled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].baseTform.pos.x
+      value: -0.029025555
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].baseTform.pos.y
+      value: 0.008996734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].baseTform.pos.z
+      value: 0.0000016785226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].baseTform.rot.w
+      value: 0.9985686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].baseTform.rot.x
+      value: 0.0000007824342
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].baseTform.rot.y
+      value: 0.000014523686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].baseTform.rot.z
+      value: -0.053486142
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[4].endTform.scale.x
       value: 1.0000001
       objectReference: {fileID: 0}
@@ -4359,6 +4771,86 @@ PrefabInstance:
       value: -0.053486142
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].endTform.scale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].endTform.scale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].endTform.scale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].startTform.pos.x
+      value: -0.029025555
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].startTform.pos.y
+      value: 0.008996734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].startTform.pos.z
+      value: 0.0000016785226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].startTform.rot.w
+      value: 0.9985686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].startTform.rot.x
+      value: 0.0000007824342
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].startTform.rot.y
+      value: 0.000014523686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].startTform.rot.z
+      value: -0.053486142
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].endTform.scale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].endTform.scale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].endTform.scale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].startTform.pos.x
+      value: -0.029025555
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].startTform.pos.y
+      value: 0.008996734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].startTform.pos.z
+      value: 0.0000016785226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].startTform.rot.w
+      value: 0.9985686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].startTform.rot.x
+      value: 0.0000007824342
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].startTform.rot.y
+      value: 0.000014523686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].startTform.rot.z
+      value: -0.053486142
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.components.Array.data[0].isBonePreviewUpdated
       value: 0
       objectReference: {fileID: 0}
@@ -4405,6 +4897,50 @@ PrefabInstance:
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.data[6].baseTform.scale.z
       value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.components.Array.data[10].isAnimatorControlled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].endTform.scale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].endTform.scale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].endTform.scale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].startTform.pos.x
+      value: -0.029025555
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].startTform.pos.y
+      value: 0.008996734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].startTform.pos.z
+      value: 0.0000016785226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].startTform.rot.w
+      value: 0.9985686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].startTform.rot.x
+      value: 0.0000007824342
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].startTform.rot.y
+      value: 0.000014523686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].startTform.rot.z
+      value: -0.053486142
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[4].baseTform.scale.x
@@ -4455,6 +4991,30 @@ PrefabInstance:
       value: 1.0000002
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].baseTform.scale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].baseTform.scale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].baseTform.scale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].baseTform.scale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].baseTform.scale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].baseTform.scale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.data[4].startTform.scale.x
       value: 1.0000001
       objectReference: {fileID: 0}
@@ -4488,6 +5048,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.data[6].startTform.scale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].baseTform.scale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].baseTform.scale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].baseTform.scale.z
       value: 1.0000002
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -4538,21 +5110,57 @@ PrefabInstance:
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[7].startTform.scale.z
       value: 1.0000002
       objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].startTform.scale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].startTform.scale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[8].startTform.scale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].startTform.scale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].startTform.scale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[9].startTform.scale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].startTform.scale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].startTform.scale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].startTform.scale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
     - target: {fileID: 8665674305800789143, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071086
+      value: 0.70712227
       objectReference: {fileID: 0}
     - target: {fileID: 8665674305800789143, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000050331804
+      value: -0.000050436276
       objectReference: {fileID: 0}
     - target: {fileID: 8665674305800789143, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000050773408
+      value: 0.000050934006
       objectReference: {fileID: 0}
     - target: {fileID: 8665674305800789143, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.707105
+      value: -0.7070914
       objectReference: {fileID: 0}
     - target: {fileID: 8665674305800789143, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
