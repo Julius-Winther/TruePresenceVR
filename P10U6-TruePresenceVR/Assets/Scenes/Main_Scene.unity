@@ -714,7 +714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectName: An Oculus Quest VR Headset
+  objectInfo: An Oculus Quest VR Headset for use in the lab
 --- !u!1001 &61273678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1484,6 +1484,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
       insertIndex: -1
       addedObject: {fileID: 164903044}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 164903045}
   m_SourcePrefab: {fileID: 100100000, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
 --- !u!4 &164903038 stripped
 Transform:
@@ -1558,6 +1561,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 164903045}
+        m_TargetAssemblyTypeName: DynamicObjectInteraction, Assembly-CSharp
+        m_MethodName: OnGrab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
@@ -1565,6 +1580,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
         m_MethodName: set_isKinematic
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 164903045}
+        m_TargetAssemblyTypeName: DynamicObjectInteraction, Assembly-CSharp
+        m_MethodName: OnDrop
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1719,6 +1746,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.028507829, y: 0.0204, z: 0.015384272}
   m_Center: {x: 0.004451321, y: 0.000000029649026, z: 0.0020575093}
+--- !u!114 &164903045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164903039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectInfo: An Oculus Quest VR Headset for use in the lab
 --- !u!1001 &167943370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7984,6 +8024,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
       insertIndex: -1
       addedObject: {fileID: 795813190}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 795813191}
   m_SourcePrefab: {fileID: 100100000, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
 --- !u!4 &795813184 stripped
 Transform:
@@ -8058,6 +8101,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 795813191}
+        m_TargetAssemblyTypeName: DynamicObjectInteraction, Assembly-CSharp
+        m_MethodName: OnGrab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
@@ -8065,6 +8120,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
         m_MethodName: set_isKinematic
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 795813191}
+        m_TargetAssemblyTypeName: DynamicObjectInteraction, Assembly-CSharp
+        m_MethodName: OnDrop
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8219,6 +8286,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.028507827, y: 0.020399999, z: 0.015384268}
   m_Center: {x: 0.0044513503, y: 1.5329526e-11, z: 0.0020574902}
+--- !u!114 &795813191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795813185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectInfo: An Oculus Quest VR Headset for use in the lab
 --- !u!1 &802206368
 GameObject:
   m_ObjectHideFlags: 0
@@ -12199,6 +12279,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1273651228}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1273651229}
   m_SourcePrefab: {fileID: 100100000, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
 --- !u!4 &1273651222 stripped
 Transform:
@@ -12261,7 +12344,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1273651225}
+      - m_Target: {fileID: 2114432246}
         m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
         m_MethodName: set_isKinematic
         m_Mode: 6
@@ -12273,13 +12356,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1273651229}
+        m_TargetAssemblyTypeName: DynamicObjectInteraction, Assembly-CSharp
+        m_MethodName: OnGrab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1273651225}
+      - m_Target: {fileID: 2114432246}
         m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
         m_MethodName: set_isKinematic
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1273651229}
+        m_TargetAssemblyTypeName: DynamicObjectInteraction, Assembly-CSharp
+        m_MethodName: OnDrop
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12434,6 +12541,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.028507838, y: 0.020400003, z: 0.015384271}
   m_Center: {x: 0.0044513815, y: 0.000000029486174, z: 0.0020574958}
+--- !u!114 &1273651229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273651223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectInfo: An Oculus Quest VR Headset for use in the lab
 --- !u!1 &1277463346
 GameObject:
   m_ObjectHideFlags: 0
@@ -21297,6 +21417,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2114432244}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2114432247}
   m_SourcePrefab: {fileID: 100100000, guid: d4cef9b8f99e4514f877f02397ed2f09, type: 3}
 --- !u!4 &2114432242 stripped
 Transform:
@@ -21392,6 +21515,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2114432247}
+        m_TargetAssemblyTypeName: DynamicObjectInteraction, Assembly-CSharp
+        m_MethodName: OnGrab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
@@ -21399,6 +21534,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
         m_MethodName: set_isKinematic
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2114432247}
+        m_TargetAssemblyTypeName: DynamicObjectInteraction, Assembly-CSharp
+        m_MethodName: OnDrop
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -21532,6 +21679,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2114432247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114432243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectInfo: An Oculus Quest VR Headset for use in the lab
 --- !u!1 &2128768746
 GameObject:
   m_ObjectHideFlags: 0
