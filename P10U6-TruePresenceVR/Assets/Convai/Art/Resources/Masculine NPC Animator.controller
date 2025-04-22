@@ -488,8 +488,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e669774a328a07440b9448fa3bbd38fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _numberOfIdleAnimations: 5
-  _timeThreshold: 2
+  _numberOfIdleAnimations: 4
+  _timeThreshold: 4.5
   _AnimationTransitionTime: 0.5
   isIdle: 0
   randomAnimChance: 6
