@@ -3153,7 +3153,7 @@ Transform:
   m_GameObject: {fileID: 314181280}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.42, y: 0, z: -23.66}
+  m_LocalPosition: {x: 5.3, y: 0, z: -20.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3181,7 +3181,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 16
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 1
@@ -10453,7 +10453,7 @@ Transform:
   m_GameObject: {fileID: 975993658}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.8, y: 0, z: -8.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10481,7 +10481,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 10.3
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 1
@@ -13049,15 +13049,15 @@ AudioReverbZone:
   m_Enabled: 1
   m_MinDistance: 3.7359428
   m_MaxDistance: 4.488447
-  m_ReverbPreset: 2
-  m_Room: -1000
+  m_ReverbPreset: 27
+  m_Room: -9536
   m_RoomHF: -6000
   m_DecayTime: 0.17
   m_DecayHFRatio: 0.1
-  m_Reflections: -1204
+  m_Reflections: -9395
   m_ReflectionsDelay: 0.001
-  m_Reverb: 207
-  m_ReverbDelay: 0.002
+  m_Reverb: -9605
+  m_ReverbDelay: 0.0029
   m_HFReference: 5000
   m_Diffusion: 100
   m_Density: 100
