@@ -306,13 +306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508967544469701721, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'CC_Base_R_ToeBase'\n\tTransform 'CC_Base_R_Upperarm'\n\tTransform
-        'CC_Base_Pelvis'\n\tTransform 'CC_Base_L_Foot'\n\tTransform 'CC_Base_L_Calf'\n\tTransform
-        'CC_Base_R_Ring3'\n\tTransform 'CC_Base_L_Index3'\n\tTransform 'CC_Base_R_Calf'\n\tTransform
-        'CC_Base_R_Pinky2'\n\tTransform 'CC_Base_L_Pinky2'\n\tand more ...\n\tFrom
-        animation clip 'GenericTalk1'"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4972691535520507752, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: m_Name
@@ -337,6 +331,10 @@ PrefabInstance:
     - target: {fileID: 5197884928421381002, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: _CoolDown
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5197884928421381002, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5197884928421381002, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: _player_Transform
@@ -395,12 +393,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: inspStateFoldoutSettings
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: inspCollectionDisplayMode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].frac
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: numRandomEmphasizersPerCycle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.name
@@ -1042,6 +1048,22 @@ PrefabInstance:
       propertyPath: emotes.Array.data[12].expData.components.Array.data[5].expressionHandler
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6286763464964797491, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: Priority
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6286763464964797491, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -8475876475612286055, guid: 63d3d4f4a7a105d43851597de913bff5, type: 2}
+    - target: {fileID: 6286763464964797491, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6286763464964797491, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emoter
       value: 
@@ -1144,7 +1166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[1].expData.inspFoldout
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[2].expData.inspFoldout
@@ -1168,10 +1190,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[0].expData.collectionExpand
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[1].expData.collectionExpand
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[3].expData.collectionExpand
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -1207,6 +1233,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[1].expData.components.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[2].expData.components.Array.size
       value: 7
       objectReference: {fileID: 0}
@@ -1216,7 +1246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.components.Array.size
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[5].expData.components.Array.size
@@ -1231,6 +1261,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[1].expData.controllerVars.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.size
       value: 7
       objectReference: {fileID: 0}
@@ -1240,7 +1274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.controllerVars.Array.size
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[5].expData.controllerVars.Array.size
@@ -1273,6 +1307,10 @@ PrefabInstance:
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[0].expData.components.Array.data[5].name
       value: component 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[1].expData.components.Array.data[3].name
+      value: Mouth_Close
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[2].expData.components.Array.data[4].frac
@@ -1384,7 +1422,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.components.Array.data[7].name
-      value: component 7
+      value: component 8
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.components.Array.data[8].frac
@@ -1640,7 +1678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[3].enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[1].expData.components.Array.data[4].enabled
@@ -2968,7 +3006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[3].maxShape
-      value: 0
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[4].maxShape
@@ -3072,7 +3110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.controllerVars.Array.data[7].maxShape
-      value: -0.3
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.controllerVars.Array.data[8].maxShape
@@ -3279,6 +3317,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: visemes.Array.data[1].expData.controllerVars.Array.data[3].blendIndex
+      value: 104
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[2].expData.controllerVars.Array.data[4].blendIndex
       value: 35
       objectReference: {fileID: 0}
@@ -3332,7 +3374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.controllerVars.Array.data[7].blendIndex
-      value: 52
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[4].expData.controllerVars.Array.data[8].blendIndex
@@ -3368,7 +3410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[0].expData.components.Array.data[0].isSmoothDisable
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[0].expData.components.Array.data[3].eyesControlType
@@ -4556,7 +4598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[4].isAnimatorControlled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[4].isBonePreviewUpdated
@@ -4564,23 +4606,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[5].isAnimatorControlled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[6].isAnimatorControlled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[7].isAnimatorControlled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[8].isAnimatorControlled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[9].isAnimatorControlled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].baseTform.pos.x
@@ -4900,7 +4942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.components.Array.data[10].isAnimatorControlled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: visemes.Array.data[3].expData.controllerVars.Array.data[10].endTform.scale.x
