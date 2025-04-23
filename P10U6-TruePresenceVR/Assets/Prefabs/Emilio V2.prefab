@@ -34,7 +34,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[6]'
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[7]'
@@ -58,11 +58,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[12]'
-      value: 0
+      value: 30.000002
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[13]'
-      value: 0
+      value: 30.000002
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[16]'
@@ -70,11 +70,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[21]'
-      value: 0
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[22]'
-      value: 0
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[23]'
@@ -98,11 +98,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[28]'
-      value: 0
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[29]'
-      value: 0
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[30]'
@@ -122,7 +122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[36]'
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 110637223460840890, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[38]'
@@ -470,7 +470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.inspFoldout
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[3].isAlwaysEmphasisEmote
@@ -562,15 +562,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.previewDisplayMode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.size
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.size
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.data[0].frac
@@ -621,6 +621,22 @@ PrefabInstance:
       value: component 5
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[6].frac
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[6].name
+      value: component 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[7].frac
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[7].name
+      value: component 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.data[0].easing
       value: 4
       objectReference: {fileID: 0}
@@ -642,6 +658,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.data[5].easing
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[6].easing
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[7].easing
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -673,6 +697,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[6].enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[7].enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[0].smr
       value: 
       objectReference: {fileID: 7413333758033528898}
@@ -694,6 +726,14 @@ PrefabInstance:
       objectReference: {fileID: 7413333758033528898}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[5].smr
+      value: 
+      objectReference: {fileID: 7413333758033528898}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[6].smr
+      value: 
+      objectReference: {fileID: 7413333758033528898}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[7].smr
       value: 
       objectReference: {fileID: 7413333758033528898}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -722,6 +762,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.data[5].durationOn
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[6].durationOn
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[7].durationOn
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -770,6 +818,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.data[5].inspFoldout
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[6].durationOff
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[6].inspFoldout
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[7].durationOff
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[7].inspFoldout
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -869,6 +933,38 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[6].fracPos
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[6].fracRot
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[6].fracScl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[6].onState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[7].fracPos
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[7].fracRot
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[7].fracScl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[7].onState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[7].expData.controllerVars.Array.data[0].maxShape
       value: 0.25
       objectReference: {fileID: 0}
@@ -905,8 +1001,16 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[6].durationHold
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[7].durationHold
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[0].maxShape
-      value: 0.25
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[1].maxShape
@@ -914,11 +1018,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[2].maxShape
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[3].maxShape
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[4].maxShape
@@ -927,6 +1031,14 @@ PrefabInstance:
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[5].maxShape
       value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[6].maxShape
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[7].maxShape
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.data[0].expressionType
@@ -953,6 +1065,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[6].expressionType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[7].expressionType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[0].blendIndex
       value: 36
       objectReference: {fileID: 0}
@@ -975,6 +1095,14 @@ PrefabInstance:
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[5].blendIndex
       value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[6].blendIndex
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.controllerVars.Array.data[7].blendIndex
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.data[0].eyesControlType
@@ -1025,6 +1153,22 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[6].eyesControlType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[6].useOffsetFollow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[7].eyesControlType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[7].useOffsetFollow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.data[0].expressionHandler
       value: 1
       objectReference: {fileID: 0}
@@ -1046,6 +1190,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: emotes.Array.data[12].expData.components.Array.data[5].expressionHandler
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[6].expressionHandler
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137827883167674874, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
+      propertyPath: emotes.Array.data[12].expData.components.Array.data[7].expressionHandler
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6286763464964797491, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
@@ -1118,7 +1270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: inspStateFoldoutVisemes
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7768046729793708828, guid: e732ae4c850eebe4d888523861b3a1df, type: 3}
       propertyPath: inspStateFoldoutSettings
