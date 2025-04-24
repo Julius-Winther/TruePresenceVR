@@ -10091,7 +10091,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -20964,7 +20964,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -22849,7 +22849,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -25051,6 +25051,10 @@ PrefabInstance:
       propertyPath: m_CameraYOffset
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5416620727364547691, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5566865348698796758, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.7
@@ -25155,7 +25159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1083626722417740201, guid: 4b429a2d7e16a9c47b9eb888d4eadeb2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.516
+      value: -5.314
       objectReference: {fileID: 0}
     - target: {fileID: 1083626722417740201, guid: 4b429a2d7e16a9c47b9eb888d4eadeb2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -25163,7 +25167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1083626722417740201, guid: 4b429a2d7e16a9c47b9eb888d4eadeb2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.392
+      value: -5.315
       objectReference: {fileID: 0}
     - target: {fileID: 1083626722417740201, guid: 4b429a2d7e16a9c47b9eb888d4eadeb2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -25740,7 +25744,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
