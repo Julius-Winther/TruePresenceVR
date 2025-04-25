@@ -714,7 +714,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: An Oculus Quest VR Headset for use in the lab
+  objectInfo: An Oculus Quest VR Headset for use in the lab. If the user ask any
+    variant of the question, "what is this?" They are referring to the held object
 --- !u!1001 &61273678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1758,7 +1759,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: An Oculus Quest VR Headset for use in the lab
+  objectInfo: An Oculus Quest VR Headset for use in the lab. If the user ask any
+    variant of the question, "what is this?" They are referring to the held object
 --- !u!1001 &167943370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2387,7 +2389,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Soda
+  objectInfo: a Soda. If the user ask any variant of the question, "what is this?"
+    They are referring to the held object
 --- !u!1001 &210812655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2850,7 +2853,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Soda
+  objectInfo: a Soda. If the user ask any variant of the question, "what is this?"
+    They are referring to the held object
 --- !u!1001 &254374175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5083,7 +5087,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Coffe Cup
+  objectInfo: a Coffe Cup. If the user ask any variant of the question, "what is
+    this?" They are referring to the held object
 --- !u!1 &504850057
 GameObject:
   m_ObjectHideFlags: 0
@@ -7158,7 +7163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Coffe Cup
+  objectInfo: A Coffe Cup. If the user ask any variant of the question, "what is
+    this?" They are referring to the held object
 --- !u!1 &680995027
 GameObject:
   m_ObjectHideFlags: 0
@@ -8260,7 +8266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Coffe Cup
+  objectInfo: A Coffe Cup. If the user ask any variant of the question, "what is
+    this?" They are referring to the held object
 --- !u!1001 &795813183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8616,7 +8623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: An Oculus Quest VR Headset for use in the lab
+  objectInfo: An Oculus Quest VR Headset for use in the lab. If the user ask any
+    variant of the question, "what is this?" They are referring to the held object
 --- !u!1 &802206368
 GameObject:
   m_ObjectHideFlags: 0
@@ -9846,7 +9854,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a computer mouse
+  objectInfo: a computer mouse. If the user ask any variant of the question, "what
+    is this?" They are referring to the held object
 --- !u!65 &919495675
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11059,7 +11068,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Soda
+  objectInfo: a Soda. If the user ask any variant of the question, "what is this?"
+    They are referring to the held object
 --- !u!1 &975993658
 GameObject:
   m_ObjectHideFlags: 0
@@ -12440,7 +12450,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Coffe Cup
+  objectInfo: A Coffe Cup. If the user ask any variant of the question, "what is
+    this?" They are referring to the held object
 --- !u!1 &1229867229 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3fa988b0d497ed949a991d7f81953d76, type: 3}
@@ -12541,7 +12552,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: the Tickle Tuner a Haptic Smartphone Cover for Cochlear Implant Users
+  objectInfo: the Tickle Tuner a Haptic Smartphone Cover for Cochlear Implant Users.
+    . If the user ask any variant of the question, "what is this?" They are referring
+    to the held object
 --- !u!114 &1240956068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13355,7 +13368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Soda
+  objectInfo: a Soda. If the user ask any variant of the question, "what is this?"
+    They are referring to the held object
 --- !u!1001 &1273651221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13711,7 +13725,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: An Oculus Quest VR Headset for use in the lab
+  objectInfo: An Oculus Quest VR Headset for use in the lab. If the user ask any
+    variant of the question, "what is this?" They are referring to the held object
 --- !u!1 &1277463346
 GameObject:
   m_ObjectHideFlags: 0
@@ -14684,6 +14699,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8817870495654122913, guid: 4b429a2d7e16a9c47b9eb888d4eadeb2, type: 3}
+      propertyPath: objectInfo
+      value: a VAM (vibrotactile actuator for music). If the user ask any variant
+        of the question, "what is this?" They are referring to the held object
+      objectReference: {fileID: 0}
     - target: {fileID: 8992446570009721012, guid: 4b429a2d7e16a9c47b9eb888d4eadeb2, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -15074,7 +15094,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Soda
+  objectInfo: a Soda. If the user ask any variant of the question, "what is this?"
+    They are referring to the held object
 --- !u!1 &1401947949
 GameObject:
   m_ObjectHideFlags: 0
@@ -15731,7 +15752,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Coffe Cup
+  objectInfo: A Coffe Cup. If the user ask any variant of the question, "what is
+    this?" They are referring to the held object
 --- !u!1 &1469648653 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5287240dab464c54ea251de33c885c4f, type: 3}
@@ -16166,7 +16188,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Soda
+  objectInfo: a Soda. If the user ask any variant of the question, "what is this?"
+    They are referring to the held object
 --- !u!1 &1484215546
 GameObject:
   m_ObjectHideFlags: 0
@@ -18737,7 +18760,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Coffe Cup
+  objectInfo: a Coffe Cup. If the user ask any variant of the question, "what is
+    this?" They are referring to the held object
 --- !u!1001 &1643694188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19089,7 +19113,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Coffe Cup
+  objectInfo: A Coffe Cup. If the user ask any variant of the question, "what is
+    this?" They are referring to the held object
 --- !u!1001 &1661415911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19141,6 +19166,11 @@ PrefabInstance:
     - target: {fileID: 1083626722417740201, guid: 4b429a2d7e16a9c47b9eb888d4eadeb2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8817870495654122913, guid: 4b429a2d7e16a9c47b9eb888d4eadeb2, type: 3}
+      propertyPath: objectInfo
+      value: a VAM (vibrotactile actuator for music). If the user ask any variant
+        of the question, "what is this?" They are referring to the held object
       objectReference: {fileID: 0}
     - target: {fileID: 8992446570009721012, guid: 4b429a2d7e16a9c47b9eb888d4eadeb2, type: 3}
       propertyPath: m_InteractionManager
@@ -20616,7 +20646,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Soda
+  objectInfo: a Soda. If the user ask any variant of the question, "what is this?"
+    They are referring to the held object
 --- !u!1 &1806747517
 GameObject:
   m_ObjectHideFlags: 0
@@ -20719,7 +20750,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a computer mouse
+  objectInfo: a computer mouse. If the user ask any variant of the question, "what
+    is this?" They are referring to the held object
 --- !u!65 &1806747522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22625,7 +22657,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a computer mouse
+  objectInfo: a computer mouse. If the user ask any variant of the question, "what
+    is this?" They are referring to the held object
 --- !u!114 &1973949225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23200,7 +23233,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectInfo: This is a student project about interaction in VR, but other than that
-    i dont have much more knowledge on that
+    i dont have much more knowledge on that. . If the user ask any variant of the
+    question, "what is this?" They are referring to the held object
 --- !u!4 &1975910416 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d533412c313659e40897476b1958e522, type: 3}
@@ -24606,7 +24640,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: An Oculus Quest VR Headset for use in the lab
+  objectInfo: An Oculus Quest VR Headset for use in the lab. If the user ask any
+    variant of the question, "what is this?" They are referring to the held object
 --- !u!1 &2128768746
 GameObject:
   m_ObjectHideFlags: 0
@@ -25201,6 +25236,11 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8817870495654122913, guid: 4b429a2d7e16a9c47b9eb888d4eadeb2, type: 3}
+      propertyPath: objectInfo
+      value: a VAM (vibrotactile actuator for music). If the user ask any variant
+        of the question, "what is this?" They are referring to the held object
+      objectReference: {fileID: 0}
     - target: {fileID: 8992446570009721012, guid: 4b429a2d7e16a9c47b9eb888d4eadeb2, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -25499,7 +25539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a computer mouse
+  objectInfo: a computer mouse. If the user ask any variant of the question, "what
+    is this?" They are referring to the held object
 --- !u!65 &6794980193698587514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26030,7 +26071,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Soda
+  objectInfo: a Soda. If the user ask any variant of the question, "what is this?"
+    They are referring to the held object
 --- !u!1 &7314156344407223311
 GameObject:
   m_ObjectHideFlags: 0
@@ -26324,7 +26366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Soda
+  objectInfo: a Soda. If the user ask any variant of the question, "what is this?"
+    They are referring to the held object
 --- !u!23 &7706041160621148050
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26655,7 +26698,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd377eab39c302041aee26d987371f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectInfo: a Soda
+  objectInfo: a Soda. If the user ask any variant of the question, "what is this?"
+    They are referring to the held object
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
