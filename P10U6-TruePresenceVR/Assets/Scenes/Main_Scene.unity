@@ -17920,6 +17920,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2085402526260855261, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
+      propertyPath: rayLength
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085402526260855261, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
+      propertyPath: visionConeAngle
+      value: 360
+      objectReference: {fileID: 0}
     - target: {fileID: 3200542808405543000, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -21569,7 +21577,7 @@ MonoBehaviour:
     Bio: 
     gameObject: {fileID: 1983703974}
   - Name: Player
-    Bio: Player
+    Bio: Player, me, over here, user
     gameObject: {fileID: 337588661}
   Objects:
   - Name: Sound Proof Room
