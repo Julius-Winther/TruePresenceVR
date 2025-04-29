@@ -25367,6 +25367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Emilio
       objectReference: {fileID: 0}
+    - target: {fileID: 2480059164636416656, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2963685244234584106, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.34554815
