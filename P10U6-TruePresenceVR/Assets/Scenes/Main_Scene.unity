@@ -18631,7 +18631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2085402526260855261, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
       propertyPath: rayLength
-      value: 100
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2085402526260855261, guid: e9f1f6847d063d5449e80affe2e54206, type: 3}
       propertyPath: visionConeAngle
