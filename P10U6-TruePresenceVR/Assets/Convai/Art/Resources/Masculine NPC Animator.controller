@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e669774a328a07440b9448fa3bbd38fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _numberOfIdleAnimations: 3
+  _numberOfIdleAnimations: 2
   _timeThreshold: 5.5
   _AnimationTransitionTime: 1
   isIdle: 1
@@ -107,14 +107,6 @@ BlendTree:
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: IdleBlend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 2405c181ab958684c99334ddcbed3f0e, type: 2}
-    m_Threshold: 2
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: efce5015b6249c540a9ac110edcec895, type: 2}
@@ -311,15 +303,15 @@ BlendTree:
     m_DirectBlendParameter: IdleBlend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: dde3b6ef30caa1b4cb8c77ad16242278, type: 2}
+    m_Motion: {fileID: 7400000, guid: df9886a096957a94983460287e3bb1b0, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: IdleBlend
+    m_DirectBlendParameter: TalkBlend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 2ccc7cecb04323747b7115a9df537a37, type: 2}
+    m_Motion: {fileID: 7400000, guid: b93395258c15647458f582da311dad4a, type: 2}
     m_Threshold: 2
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -327,7 +319,7 @@ BlendTree:
     m_DirectBlendParameter: IdleBlend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: b93395258c15647458f582da311dad4a, type: 2}
+    m_Motion: {fileID: 7400000, guid: dde3b6ef30caa1b4cb8c77ad16242278, type: 2}
     m_Threshold: 3
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -335,15 +327,7 @@ BlendTree:
     m_DirectBlendParameter: IdleBlend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 048511fd423cc304d90dc19f0c9fc15f, type: 2}
-    m_Threshold: 4
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: IdleBlend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: df9886a096957a94983460287e3bb1b0, type: 2}
+    m_Motion: {fileID: 7400000, guid: a93ca7f21669d3343acf187a127ebc95, type: 2}
     m_Threshold: 5
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -351,12 +335,12 @@ BlendTree:
     m_DirectBlendParameter: TalkBlend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: a93ca7f21669d3343acf187a127ebc95, type: 2}
+    m_Motion: {fileID: 7400000, guid: 048511fd423cc304d90dc19f0c9fc15f, type: 2}
     m_Threshold: 6
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: TalkBlend
+    m_DirectBlendParameter: IdleBlend
     m_Mirror: 0
   m_BlendParameter: TalkBlend
   m_BlendParameterY: IdleBlend
@@ -500,7 +484,7 @@ MonoBehaviour:
   _timeThreshold: 5.5
   _AnimationTransitionTime: 1
   isIdle: 0
-  randomAnimChance: 6
+  randomAnimChance: 3
 --- !u!1102 &8305343202367973860
 AnimatorState:
   serializedVersion: 6

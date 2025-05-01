@@ -62,7 +62,7 @@ public class AnimationBehavior : StateMachineBehaviour
             int randomAnim = Random.Range(0, 11);
             if(randomAnim >= randomAnimChance)
             {
-                animationRandomValue = Random.Range(1, 4);
+                animationRandomValue = Random.Range(1, _numberOfIdleAnimations);
                 
             }
         } 
