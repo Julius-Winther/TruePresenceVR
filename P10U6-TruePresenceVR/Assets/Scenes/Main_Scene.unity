@@ -25930,7 +25930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5416620727364547691, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_CameraYOffset
-      value: 1
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 5416620727364547691, guid: bbe717f16008c7840a471c7a121eb40f, type: 3}
       propertyPath: m_RequestedTrackingOriginMode
@@ -26277,6 +26277,10 @@ PrefabInstance:
       propertyPath: 'LocationGameObjects.Array.data[5]'
       value: 
       objectReference: {fileID: 83906794}
+    - target: {fileID: 3622457339097111554, guid: c1b714b7753e802458b57253a201132c, type: 3}
+      propertyPath: inspSalsaLinked
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3622457339097111554, guid: c1b714b7753e802458b57253a201132c, type: 3}
       propertyPath: emotes.Array.data[7].expData.previewDisplayMode
       value: 0
