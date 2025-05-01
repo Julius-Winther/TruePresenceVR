@@ -22521,14 +22521,11 @@ MonoBehaviour:
   - Name: Sound Proof Room
     Description: Anechoic Chamber Also known as "Tinnitus"
     gameObject: {fileID: 477932895}
-  - Name: Me Lab Entrance (Start)
-    Description: 
-    gameObject: {fileID: 1639851639}
   - Name: Razvan3000
     Description: also known as the surround sound system
     gameObject: {fileID: 1529196718}
-  - Name: MeLab Inside
-    Description: the main lab space
+  - Name: Me Lab Entrance
+    Description: Main lab space, Entrance
     gameObject: {fileID: 1371162796}
   - Name: Razvan Bench
     Description: Haptic Feedback Bench
